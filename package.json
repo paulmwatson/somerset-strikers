@@ -12,7 +12,8 @@
     "@parcel/transformer-sass": "2.7.0",
     "@parcel/transformer-webmanifest": "2.7.0",
     "parcel": "^2.7.0",
-    "parcel-reporter-static-files-copy": "^1.4.0"
+    "parcel-reporter-static-files-copy": "^1.4.0",
+    "parcel-transformer-ogimage": "^1.0.3"
   },
   "dependencies": {}
 }

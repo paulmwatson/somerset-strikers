@@ -511,7 +511,7 @@
     "@parcel/utils" "2.7.0"
     posthtml "^0.16.4"
 
-"@parcel/plugin@2.7.0", "@parcel/plugin@^2.0.0-beta.1":
+"@parcel/plugin@*", "@parcel/plugin@2.7.0", "@parcel/plugin@^2.0.0-beta.1":
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/@parcel/plugin/-/plugin-2.7.0.tgz#0211281025d02afbc5a23fba237b7aae02e34e51"
   integrity sha512-qqgx+nnMn6/0lRc4lKbLGmhNtBiT93S2gFNB4Eb4Pfz/SxVYoW+fmml+KdfOSiZffWOAH5L6NwhyD7N8aSikzw==
@@ -1303,6 +1303,13 @@ parcel-reporter-static-files-copy@^1.4.0:
   integrity sha512-bOX94IbN97QT345staIdUUCFFEc2LC8rqfOf1CgVODWxE0rPZzEtWxboOI6d2OdO2SyZY0P6i6ngTBnkvvRswg==
   dependencies:
     "@parcel/plugin" "^2.0.0-beta.1"
+
+parcel-transformer-ogimage@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/parcel-transformer-ogimage/-/parcel-transformer-ogimage-1.0.3.tgz#773921ec3b96ffdaf0d8ae220d5c4cf5b3645faf"
+  integrity sha512-1yI5VBVwjSRBcRubmn0J2kLJYHqTgKaZHRLUk4kd9MgQnHl0ZZQQjuj1I1U8zdE7F1yqPNAE4MSxxmYozmSQzw==
+  dependencies:
+    "@parcel/plugin" "*"
 
 parcel@^2.7.0:
   version "2.7.0"
