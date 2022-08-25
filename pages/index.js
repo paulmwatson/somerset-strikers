@@ -1,16 +1,17 @@
+import { useTranslation, Trans } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
-export default function Home() {
+const Page = () => {
+  const { t } = useTranslation();
+
   return (
     <React.Fragment>
       <Head>
-        <title>Somerset Strikers Cricket Club</title>
-        <meta
-          name="description"
-          content="Somerset West's newest youth and junior cricket club. Join now."
-        />
+        <title>{t("title")}</title>
+        <meta name="description" content={t("description")} />
 
         <link
           rel="apple-touch-icon"
@@ -29,7 +30,7 @@ export default function Home() {
           sizes="16x16"
           href="favicon-16x16.png"
         />
-        
+
         <link rel="manifest" href="site.webmanifest" />
         <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
@@ -42,11 +43,8 @@ export default function Home() {
         <meta property="og:url" content="https://www.somersetstrikers.co.za/" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Somerset Strikers Cricket Club" />
-        <meta
-          property="og:description"
-          content="Somerset West's newest youth and junior cricket club."
-        />
+        <meta property="og:title" content={t("site.title")} />
+        <meta property="og:description" content={t("description")} />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="somersetstrikers.co.za" />
@@ -54,11 +52,8 @@ export default function Home() {
           property="twitter:url"
           content="https://www.somersetstrikers.co.za/"
         />
-        <meta name="twitter:title" content="Somerset Strikers Cricket Club" />
-        <meta
-          name="twitter:description"
-          content="Somerset West's newest youth and junior cricket club."
-        />
+        <meta name="twitter:title" content={t("site.title")} />
+        <meta name="twitter:description" content={t("description")} />
         <meta
           name="twitter:image"
           content="https://www.somersetstrikers.co.za/profile.webp"
@@ -68,21 +63,16 @@ export default function Home() {
         <header className="has-text-centered">
           <Image
             src="/logo.webp"
-            alt="Somerset Strikers logo"
+            alt={t("logo.alt")}
             height="256"
             width="256"
           />
         </header>
         <main className="content container is-max-width-30em has-text-centered">
           <h1 className="title is-2 has-text-primary is-text-transform-uppercase has-text-weight-bold">
-            Somerset Strikers
+            {t("home.h1")}
           </h1>
-          <p>
-            Somerset Strikers is a new youth and junior cricket club in Somerset
-            West, South Africa. Our focus is to provide coaching, game time, and
-            Western Province Youth League cricket matches to young cricketers in
-            an inclusive, safe, constructive, and competitive environment.
-          </p>
+          <p>{t("home.intro")}</p>
           <hr />
           <div className="columns is-mobile has-text-centered">
             <div className="column">
@@ -91,7 +81,7 @@ export default function Home() {
                   <span className="icon">
                     <i className="fa-regular fa-envelope fa-2xl"></i>
                   </span>
-                  <span className="sr-only">E-mail</span>
+                  <span className="sr-only">{t("email")}</span>
                 </span>
               </a>
             </div>
@@ -101,7 +91,7 @@ export default function Home() {
                   <span className="icon">
                     <i className="fa-brands fa-twitter fa-2xl"></i>
                   </span>
-                  <span className="sr-only">Twitter</span>
+                  <span className="sr-only">{t("twitter")}</span>
                 </span>
               </a>
             </div>
@@ -114,7 +104,7 @@ export default function Home() {
                   <span className="icon">
                     <i className="fa-brands fa-instagram fa-2xl"></i>
                   </span>
-                  <span className="sr-only">Instagram</span>
+                  <span className="sr-only">{t("instagram")}</span>
                 </span>
               </a>
             </div>
@@ -124,7 +114,7 @@ export default function Home() {
                   <span className="icon">
                     <i className="fa-brands fa-facebook fa-2xl"></i>
                   </span>
-                  <span className="sr-only">Facebook</span>
+                  <span className="sr-only">{t("facebook")}</span>
                 </span>
               </a>
             </div>
@@ -133,4 +123,12 @@ export default function Home() {
       </section>
     </React.Fragment>
   );
-}
+};
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ["common"])),
+  },
+});
+
+export default Page;
