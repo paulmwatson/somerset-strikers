@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "cypress run",
     "lint": "next lint"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
     "sharp": "^0.30.7"
   },
   "devDependencies": {
+    "cypress": "^10.6.0",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5"
   }
