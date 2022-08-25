@@ -10,8 +10,8 @@ const Page = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>{t("title")}</title>
-        <meta name="description" content={t("description")} />
+        <title>{t("site.title")}</title>
+        <meta name="description" content={t("site.description")} />
 
         <link
           rel="apple-touch-icon"
@@ -44,7 +44,7 @@ const Page = () => {
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={t("site.title")} />
-        <meta property="og:description" content={t("description")} />
+        <meta property="og:description" content={t("site.description")} />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="somersetstrikers.co.za" />
@@ -53,7 +53,7 @@ const Page = () => {
           content="https://www.somersetstrikers.co.za/"
         />
         <meta name="twitter:title" content={t("site.title")} />
-        <meta name="twitter:description" content={t("description")} />
+        <meta name="twitter:description" content={t("site.description")} />
         <meta
           name="twitter:image"
           content="https://www.somersetstrikers.co.za/profile.webp"
