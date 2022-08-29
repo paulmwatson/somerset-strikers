@@ -69,10 +69,13 @@ const Page = () => {
           />
         </header>
         <main className="content container is-max-width-30em has-text-centered">
-          <h1 className="title is-2 has-text-primary is-text-transform-uppercase has-text-weight-bold">
+          <h1 className="title is-2 has-text-primary is-uppercase	has-text-weight-bold">
             {t("home.h1")}
           </h1>
           <p>{t("home.intro")}</p>
+          <a className="button is-link is-uppercase is-fullwidth is-large" href="https://bit.ly/somerset-strikers-cc-interest" target="noopener">
+            {t("home.register_your_interest")}
+          </a>
           <hr />
           <div className="columns is-mobile has-text-centered">
             <div className="column">

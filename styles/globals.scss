@@ -1,12 +1,16 @@
+$strikers-red: #d51c21;
 $strikers-gold: #c28e1d;
 $primary: $strikers-gold;
+
+@import "bulma/sass/helpers/color.sass";
+
+$link-hover: $info;
 
 @import "bulma/sass/utilities/functions.sass";
 @import "bulma/sass/utilities/initial-variables.sass";
 @import "bulma/sass/utilities/derived-variables.sass";
 @import "bulma/sass/utilities/controls.sass";
 @import "bulma/sass/utilities/extends.sass";
-@import "bulma/sass/helpers/color.sass";
 @import "bulma/sass/helpers/spacing.sass";
 @import "bulma/sass/helpers/typography.sass";
 @import "bulma/sass/helpers/visibility.sass";
@@ -18,6 +22,7 @@ $primary: $strikers-gold;
 @import "bulma/sass/elements/content.sass";
 @import "bulma/sass/grid/columns.sass";
 @import "bulma/sass/elements/icon.sass";
+@import "bulma/sass/elements/button.sass";
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/regular";
@@ -25,8 +30,4 @@ $primary: $strikers-gold;
 
 .is-max-width-30em {
   max-width: 30em !important;
-}
-
-.is-text-transform-uppercase {
-  text-transform: uppercase;
 }
