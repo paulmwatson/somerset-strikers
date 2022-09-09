@@ -73,7 +73,11 @@ const Page = () => {
             {t("home.h1")}
           </h1>
           <p>{t("home.intro")}</p>
-          <a className="button is-link is-uppercase is-fullwidth is-large" href="https://bit.ly/somerset-strikers-cc-interest" target="noopener">
+          <a
+            className="button is-link is-uppercase is-fullwidth is-large"
+            href="https://bit.ly/somerset-strikers-cc-interest"
+            target="noopener"
+          >
             {t("home.register_your_interest")}
           </a>
           <hr />
@@ -122,7 +126,25 @@ const Page = () => {
               </a>
             </div>
           </div>
+          <div className="section mt-6">
+            <a
+              href="https://newlandscricket.com/youth-cricket/"
+              target="noopener"
+            >
+              <figure className="image is-128x128">
+                <Image
+                  src="/images/wcpa-logo.webp"
+                  alt={t("wpca-logo.alt")}
+                  width="128"
+                  height="92"
+                />
+              </figure>
+            </a>
+          </div>
         </main>
+        <footer className="is-size-7 has-text-grey-light has-text-centered">
+          <span title={t("copyright.entity")}>&copy;{t("copyright.entity")} {new Date().getFullYear()}</span>
+        </footer>
       </section>
     </React.Fragment>
   );
