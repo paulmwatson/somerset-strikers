@@ -6,6 +6,13 @@
   "logo": {
     "alt": "Somerset Strikers logo"
   },
+  "wpca-logo": {
+    "alt": "Western Province Cricket Association logo"
+  },
+  "copyright": {
+    "entity": "Somerset Strikers",
+    "title": "Copyright Somerset Strikers"
+  },
   "email": "E-Mail",
   "twitter": "Twitter",
   "instagram": "Instagram",
