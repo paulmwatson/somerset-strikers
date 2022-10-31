@@ -20,6 +20,32 @@
   "home": {
     "h1": "Somerset Strikers",
     "intro": "Somerset Strikers is a new youth and junior cricket club in Somerset West, South Africa. Our focus is to provide coaching, game time, and Western Province Youth League cricket matches to young cricketers in an inclusive, safe, constructive, and competitive environment.",
-    "register_your_interest": "Register Your Interest"
+    "join": "Join"
+  },
+  "navigation": {
+    "join": "Join",
+    "practice": "Practice",
+    "play": "Play",
+    "contact-us": "Contact Us"
+  },
+  "pages": {
+    "contact-us": {
+      "intro": "You can contact us via email or follow us on social media for regular updates. Please remember we are a volunteer team with jobs and families of our own. We will do our best to respond to you."
+    },
+    "join": {
+      "title": "Joining Somerset Strikers",
+      "intro": "The easiest way to join is to attend one of our practice sessions and see what Somerset Strikers is all about. You can then sign up and become a member."
+    }
+  },
+  "people": {
+    "chairperson": {
+      "name": "Wesley Moodie"
+    },
+    "treasurer": {
+      "name": "Linda Hartley"
+    },
+    "secretary": {
+      "name": "Fiona Haughney"
+    }
   }
 }

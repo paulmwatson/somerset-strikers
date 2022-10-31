@@ -1,6 +1,6 @@
 $strikers-red: #d51c21;
 $strikers-gold: #c28e1d;
-$primary: $strikers-gold;
+$primary: #39f;
 
 @import "bulma/sass/helpers/color.sass";
 
@@ -9,6 +9,7 @@ $link-hover: $info;
 @import "bulma/sass/utilities/functions.sass";
 @import "bulma/sass/utilities/initial-variables.sass";
 @import "bulma/sass/utilities/derived-variables.sass";
+
 @import "bulma/sass/utilities/controls.sass";
 @import "bulma/sass/utilities/extends.sass";
 @import "bulma/sass/helpers/spacing.sass";
@@ -17,12 +18,18 @@ $link-hover: $info;
 @import "bulma/sass/helpers/flexbox.sass";
 @import "bulma/sass/base/_all.sass";
 @import "bulma/sass/elements/container.sass";
+@import "bulma/sass/elements/table.sass";
+@import "bulma/sass/layout/footer.sass";
 @import "bulma/sass/layout/section.sass";
 @import "bulma/sass/elements/title.sass";
 @import "bulma/sass/elements/content.sass";
 @import "bulma/sass/grid/columns.sass";
 @import "bulma/sass/elements/icon.sass";
 @import "bulma/sass/elements/button.sass";
+
+@import "bulma/sass/components/navbar.sass";
+@import "bulma/sass/components/media.sass";
+@import "bulma/sass/components/card.sass";
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/regular";
@@ -36,4 +43,48 @@ $link-hover: $info;
   @media screen and (max-width: 796px) {
     font-size: 1.95em !important;
   }
+}
+
+.is-border-top-grey-lighter {
+  border-top: solid 1px $grey-lighter;
+}
+
+.is-max-width-480 {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.container {
+  &.narrow {
+    max-width: 40em !important;
+  }
+  &.narrower {
+    max-width: 50em !important;
+  }
+}
+
+.button {
+  &.is-multiline {
+    white-space: unset;
+    height: auto;
+    text-align: left;
+    overflow-wrap: anywhere;
+  }
+}
+
+.is-hidden-mobile {
+  @include until($desktop) {
+    display: none;
+  }
+}
+
+.px-0-mobile {
+  @include until($desktop) {
+    padding-left: 1em !important;
+    padding-right: 0 !important;
+  }
+}
+
+.no-border {
+  border-style: none!important;
 }
