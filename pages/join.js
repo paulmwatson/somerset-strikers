@@ -65,7 +65,7 @@ const Page = () => {
                   <small>
                     <nobr>R650 by October 31</nobr>
                     <br />
-                    <nobr>R650 by March 31</nobr>
+                    <nobr>R650 by January 31</nobr>
                   </small>
                 </td>
               </tr>
@@ -85,11 +85,11 @@ const Page = () => {
           </table>
           <p className="content">
             You may pay the full fee or half by <strong>October 31</strong> and
-            the remaining amount by <strong>March 31</strong>.
+            the remaining amount by <strong>January 31</strong>.
           </p>
           <table className="table is-fullwidth">
             <thead>
-              <tr className="has-background-light">
+              <tr className="is-selected">
                 <th colSpan="2">Payment must be made by EFT</th>
               </tr>
             </thead>
