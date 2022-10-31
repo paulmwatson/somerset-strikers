@@ -75,12 +75,12 @@ const Page = () => {
       <div className="container is-widescreen">
         <div className="columns px-6 px-0-mobile">
           <div className="column">
-            <div class="card">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title is-3 mb-1">{t("Chairperson")}</p>
-                    <p class="title is-5 mb-1">
+            <div className="card">
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-content">
+                    <p className="title is-3 mb-1">{t("Chairperson")}</p>
+                    <p className="title is-5 mb-1">
                       {t("people.chairperson.name")}
                     </p>
                     <p>
@@ -97,12 +97,12 @@ const Page = () => {
             </div>
           </div>
           <div className="column">
-            <div class="card">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title is-3 mb-1">{t("Secretary")}</p>
-                    <p class="title is-5 mb-1">{t("people.secretary.name")}</p>
+            <div className="card">
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-content">
+                    <p className="title is-3 mb-1">{t("Secretary")}</p>
+                    <p className="title is-5 mb-1">{t("people.secretary.name")}</p>
                     <p>
                       <a
                         href="mailto:secretary@somersetstrikers.co.za"
@@ -117,12 +117,12 @@ const Page = () => {
             </div>
           </div>
           <div className="column">
-            <div class="card">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title is-3 mb-1">{t("Treasurer")}</p>
-                    <p class="title is-5 mb-1">{t("people.treasurer.name")}</p>
+            <div className="card">
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-content">
+                    <p className="title is-3 mb-1">{t("Treasurer")}</p>
+                    <p className="title is-5 mb-1">{t("people.treasurer.name")}</p>
                     <p>
                       <a
                         href="mailto:treasurer@somersetstrikers.co.za"

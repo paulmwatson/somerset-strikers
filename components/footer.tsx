@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navigation() {
   const { t } = useTranslation();
@@ -49,6 +50,23 @@ export default function Navigation() {
               <span className="sr-only">{t("facebook")}</span>
             </span>
           </a>
+        </div>
+      </div>
+      <div className="columns is-mobile has-text-centered is-max-width-480">
+        <div className="column">
+          <Link href="/join">
+            <a>{t("navigation.join")}</a>
+          </Link>
+        </div>
+        <div className="column">
+          <Link href="/practice">
+            <a>{t("navigation.practice")}</a>
+          </Link>
+        </div>
+        <div className="column">
+        <Link href="/contact-us">
+            <a>{t("navigation.contact-us")}</a>
+          </Link>
         </div>
       </div>
       <div className="section">

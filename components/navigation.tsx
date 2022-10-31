@@ -20,14 +20,13 @@ export default function Navigation() {
             </a>
           </Link>
         </div>
-
         <div className="navbar-menu">
           <div className="navbar-start">
             <Link href="/join">
-              <a className="navbar-item is-hidden">{t("navigation.join")}</a>
+              <a className="navbar-item">{t("navigation.join")}</a>
             </Link>
-            <Link href="/">
-              <a className="navbar-item is-hidden">{t("navigation.practice")}</a>
+            <Link href="/practice">
+              <a className="navbar-item">{t("navigation.practice")}</a>
             </Link>
             <Link href="/">
               <a className="navbar-item is-hidden">{t("navigation.play")}</a>

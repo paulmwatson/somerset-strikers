@@ -35,6 +35,10 @@
     "join": {
       "title": "Joining Somerset Strikers",
       "intro": "The easiest way to join is to attend one of our practice sessions and see what Somerset Strikers is all about. You can then sign up and become a member."
+    },
+    "practice": {
+      "title": "Practice",
+      "intro": "We practice on Friday afternoon at Parel Vallei High School, Somerset West."
     }
   },
   "people": {
