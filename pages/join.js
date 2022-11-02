@@ -121,7 +121,7 @@ const Page = () => {
                 <td>
                   <strong>Initial &amp; Surname</strong>
                   <br />
-                  e.g. S Nkosi
+                  e.g. S. Nkosi
                 </td>
               </tr>
             </tbody>
