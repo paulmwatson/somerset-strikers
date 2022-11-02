@@ -1,5 +1,5 @@
 import { appWithTranslation } from "next-i18next";
-import { Analytics } from "@vercel/analytics/react";
+//import { Analytics } from "@vercel/analytics/react";
 import "../styles/globals.scss";
 
 function MyApp({ Component, pageProps }) {
@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Component {...pageProps} />
       {
-        <Analytics />
+        //<Analytics />
       }
     </>
   );
