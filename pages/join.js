@@ -56,7 +56,7 @@ const Page = () => {
                     >
                       WP Youth League
                     </a>
-                    , Tournaments, Friendly Matches, Internal Matches
+                    , Tournaments*, Friendly Matches, Internal Matches
                   </small>
                 </td>
                 <td>
@@ -83,6 +83,9 @@ const Page = () => {
               </tr>
             </tbody>
           </table>
+          <p className="content is-size-7">
+            * Note that your Somerset Strikers fee only covers being eligible for selection for tournaments. Any tournament fees are additional and for your account.
+          </p>
           <p className="content">
             You may pay the full fee or half by <strong>October 31</strong> and
             the remaining amount by <strong>January 31</strong>.
