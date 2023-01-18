@@ -22,7 +22,7 @@ const Page = () => {
           </p>
           <p className="content has-text-centered">
             <a
-            className="button is-primary"
+              className="button is-primary"
               href="https://bit.ly/strikerslogos"
               rel="noopener"
               target="noopener"
@@ -30,12 +30,24 @@ const Page = () => {
               Download Format and Size Variants
             </a>
           </p>
-          <Image
-            src="/images/somerset-strikers-logo.svg"
-            alt="The Somerset Strikers Cricket Club logo"
-            width="753"
-            height="753"
-          />
+          <div className="columns">
+            <div className="column">
+              <Image
+                src="/images/somerset-strikers-logo-1000x1290.webp"
+                alt="The Somerset Strikers Cricket Club logo with name"
+                width="1000"
+                height="1290"
+              />
+            </div>
+            <div className="column">
+              <Image
+                src="/images/somerset-strikers-logo-no-name-1000x1000.webp"
+                alt="The Somerset Strikers Cricket Club logo without name"
+                width="1000"
+                height="1000"
+              />
+            </div>
+          </div>
           <p className="content is-size-7 has-text-centered">
             Thank you to{" "}
             <a
