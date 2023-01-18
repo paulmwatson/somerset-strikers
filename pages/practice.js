@@ -40,10 +40,10 @@ const Page = () => {
                     <strong>First Group</strong>
                   </nobr>
                   <br />
-                  <small>Born on or after 1 January 2012</small>
+                  <small>Born on or after 1 January 2013</small>
                 </td>
                 <td>
-                  <strong>16:00 to 17:00</strong>
+                  <strong>16:30 to 17:30</strong>
                 </td>
               </tr>
               <tr>
@@ -52,10 +52,10 @@ const Page = () => {
                     <strong>Second Group</strong>
                   </nobr>
                   <br />
-                  <small>Born before 1 January 2012</small>
+                  <small>Born before 1 January 2013</small>
                 </td>
                 <td>
-                  <strong>17:15 to 18:30</strong>
+                  <strong>17:45 to 19:00</strong>
                 </td>
               </tr>
             </tbody>
@@ -64,7 +64,7 @@ const Page = () => {
           <ul className="content">
             <li>
               <span className="icon-text">
-              <span className="icon is-hidden-mobile">
+                <span className="icon is-hidden-mobile">
                   <i className="fa-regular fa-rectangle-list"></i>
                 </span>
                 <span>
@@ -75,7 +75,7 @@ const Page = () => {
             </li>
             <li>
               <span className="icon-text">
-              <span className="icon is-hidden-mobile">
+                <span className="icon is-hidden-mobile">
                   <i className="fa-regular fa-clock"></i>
                 </span>
                 <span>
@@ -85,7 +85,7 @@ const Page = () => {
             </li>
             <li>
               <span className="icon-text">
-              <span className="icon is-hidden-mobile">
+                <span className="icon is-hidden-mobile">
                   <i className="fa-regular fa-id-card"></i>
                 </span>
                 <span>
@@ -106,7 +106,7 @@ const Page = () => {
             </li>
             <li>
               <span className="icon-text">
-              <span className="icon is-hidden-mobile">
+                <span className="icon is-hidden-mobile">
                   <i className="fa-regular fa-circle-check"></i>
                 </span>
                 <span>
@@ -116,17 +116,25 @@ const Page = () => {
             </li>
             <li>
               <span className="icon-text">
-              <span className="icon is-hidden-mobile">
+                <span className="icon is-hidden-mobile">
+                  <i className="fa-regular fa-circle-xmark"></i>
+                </span>
+                <span>No <strong>alcohol</strong> or <strong>smoking</strong> allowed.</span>
+              </span>
+            </li>
+            <li>
+              <span className="icon-text">
+                <span className="icon is-hidden-mobile">
                   <i className="fa-regular fa-map"></i>
                 </span>
                 <span>
                   <a
-                    href="https://goo.gl/maps/YKUCKK47MmZ8eZ7j7"
+                    href="https://goo.gl/maps/pb6rgbbfGghYCYqR8"
                     rel="noopener"
                   >
-                    Parel Vallei High School, 95 Parel Vallei Road, Somerset
-                    West
-                  </a>.
+                    Beaumont Primary School, Van Der Merwe Road, Somerset West
+                  </a>
+                  .
                 </span>
               </span>
             </li>
@@ -134,8 +142,8 @@ const Page = () => {
           <p className="content"></p>
           <a href="https://goo.gl/maps/YKUCKK47MmZ8eZ7j7" rel="noopener">
             <Image
-              src="/images/parel-vallei-satellite-map.webp"
-              alt="Google Maps Satellite View of Parel Vallei High School"
+              src="/images/beaumont-primary-schoo-satellite-map.webp"
+              alt="Google Maps Satellite View of Beaumont Primary School"
               width="753"
               height="753"
             />
