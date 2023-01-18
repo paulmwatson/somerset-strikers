@@ -1,5 +1,5 @@
 $strikers-red: #d51c21;
-$strikers-gold: #c28e1d;
+$strikers-gold: #c38820;
 $primary: #39f;
 
 @import "bulma/sass/helpers/color.sass";
@@ -86,5 +86,10 @@ $link-hover: $info;
 }
 
 .no-border {
-  border-style: none!important;
+  border-style: none !important;
+}
+
+
+.is-color-strikers-gold {
+  color: $strikers-gold!important;
 }

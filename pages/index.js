@@ -17,16 +17,13 @@ const Page = () => {
       <section className="section pt-5">
         <header className="has-text-centered">
           <Image
-            src="/logo.webp"
+            src="/images/somerset-strikers-logo-1000x1290.webp"
             alt={t("logo.alt")}
-            height="256"
             width="256"
+            height="330"
           />
         </header>
         <main className="content container is-max-width-30em has-text-centered mt-4">
-          <h1 className="title is-2 is-size-1-95-mobile is-uppercase has-text-weight-bold">
-            {t("home.h1")}
-          </h1>
           <p>{t("home.intro")}</p>
           <Link href="/join">
             <a className="button is-link is-uppercase is-fullwidth is-large">

@@ -12,10 +12,10 @@ export default function Navigation() {
           <Link href="/">
             <a className="navbar-item">
               <Image
-                src="/logo-wide.webp"
+                src="/logo-wide-new.webp"
                 alt="Logo"
+                width="603"
                 height="128"
-                width="472"
               />
             </a>
           </Link>
