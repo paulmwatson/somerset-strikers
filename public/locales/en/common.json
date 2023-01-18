@@ -10,7 +10,7 @@
     "alt": "Western Province Cricket Association logo"
   },
   "copyright": {
-    "entity": "Somerset Strikers",
+    "entity": "Somerset Strikers Cricket Club",
     "title": "Copyright Somerset Strikers"
   },
   "email": "E-Mail",
@@ -26,7 +26,8 @@
     "join": "Join",
     "practice": "Practice",
     "play": "Play",
-    "contact-us": "Contact Us"
+    "contact-us": "Contact Us",
+    "brand": "Brand & Logo"
   },
   "pages": {
     "contact-us": {
@@ -39,6 +40,11 @@
     "practice": {
       "title": "Practice",
       "intro": "We practice on Friday afternoon at Beaumont Primary School, Somerset West."
+    },
+    "brand": {
+      "title": "Our Brand",
+      "intro": "We respect our brand and care about how it is used. If you are interested in using our brand, logo, and other assets please do not edit them. If you use our branding we would appreciate you letting us know. The brand, logo, and other assets are owned by the Somerset Strikers Cricket Club.",
+      "thank-you": "Thank you to Terblanche Fourie for creating the logo."
     }
   },
   "people": {

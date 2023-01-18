@@ -6,6 +6,25 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   i18n,
+  async redirects() {
+    return [
+      {
+        source: "/logo",
+        destination: "/brand",
+        permanent: false,
+      },
+      {
+        source: "/brand/logo",
+        destination: "/brand",
+        permanent: false,
+      },
+      {
+        source: "/logos",
+        destination: "/brand",
+        permanent: false,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
