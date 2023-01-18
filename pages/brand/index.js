@@ -32,6 +32,7 @@ const Page = () => {
           </p>
           <div className="columns">
             <div className="column">
+              <h2 className="title is-size-4 has-text-centered">With Name</h2>
               <Image
                 src="/images/somerset-strikers-logo-1000x1290.webp"
                 alt="The Somerset Strikers Cricket Club logo with name"
@@ -40,6 +41,7 @@ const Page = () => {
               />
             </div>
             <div className="column">
+            <h2 className="title is-size-4 has-text-centered">Without Name</h2>
               <Image
                 src="/images/somerset-strikers-logo-no-name-1000x1000.webp"
                 alt="The Somerset Strikers Cricket Club logo without name"
