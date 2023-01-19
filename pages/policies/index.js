@@ -17,13 +17,18 @@ const Page = () => {
       <div className="container narrow">
         <section className="section">
           <h1 className="title has-text-centered">Policies</h1>
-          <ul>
+          <ol class="content">
             <li>
               <Link href="/policies/selection">
                 <a>Selection Policy and Ethos</a>
               </Link>
             </li>
-          </ul>
+            <li>
+              <Link href="/policies/anti-discrimination-code-of-conduct">
+                <a>Anti-Discrimination Policies and Codes of Conduct</a>
+              </Link>
+            </li>
+          </ol>
         </section>
       </div>
       <Footer />
