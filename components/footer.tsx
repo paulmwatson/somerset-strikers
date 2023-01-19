@@ -75,6 +75,11 @@ export default function Navigation() {
             <a>{t("navigation.brand")}</a>
           </Link>
         </div>
+        <div className="column">
+          <Link href="/policies">
+            <a>{t("navigation.policies")}</a>
+          </Link>
+        </div>
       </div>
       <div className="section">
         <a href="https://newlandscricket.com/youth-cricket/" target="noopener">
