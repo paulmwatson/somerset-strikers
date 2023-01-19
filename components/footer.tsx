@@ -71,13 +71,18 @@ export default function Navigation() {
       </div>
       <div className="columns is-mobile has-text-centered is-max-width-480">
         <div className="column">
-          <Link href="/brand">
-            <a>{t("navigation.brand")}</a>
+          <Link href="/constitution">
+            <a>{t("navigation.constitution")}</a>
           </Link>
         </div>
         <div className="column">
           <Link href="/policies">
             <a>{t("navigation.policies")}</a>
+          </Link>
+        </div>
+        <div className="column">
+          <Link href="/brand">
+            <a>{t("navigation.brand")}</a>
           </Link>
         </div>
       </div>
