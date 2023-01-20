@@ -28,6 +28,11 @@ const nextConfig = {
         destination: "/brand",
         permanent: false,
       },
+      {
+        source: "/eft",
+        destination: "/bank",
+        permanent: false,
+      },
     ];
   },
 };
