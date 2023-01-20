@@ -86,6 +86,13 @@ export default function Navigation() {
           </Link>
         </div>
       </div>
+      <div className="columns is-mobile has-text-centered is-max-width-480">
+        <div className="column">
+          <Link href="/bank">
+            <a>{t("navigation.bank")}</a>
+          </Link>
+        </div>
+      </div>
       <div className="section">
         <a href="https://newlandscricket.com/youth-cricket/" target="noopener">
           <figure className="image is-128x128">

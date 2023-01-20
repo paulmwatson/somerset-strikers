@@ -122,9 +122,11 @@ const Page = () => {
               <tr>
                 <td>Reference</td>
                 <td>
-                  <strong>Initial &amp; Surname</strong>
+                  <strong>Initial Surname SUBS</strong>
                   <br />
-                  e.g. S. Nkosi
+                  e.g. 
+                  <br />
+                  S. Nkosi SUBS
                 </td>
               </tr>
             </tbody>
