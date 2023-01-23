@@ -145,7 +145,7 @@ const Page = () => {
           <p>All U12 teams will be rotation based.</p>
           <h3 className="title">U13</h3>
           <p>
-            One U13 tean will be role based, the other will be normal cricket
+            One U13 team will be role based, the other will be normal cricket
             merit based.
           </p>
         </section>
