@@ -55,7 +55,7 @@ const Page = () => {
                   <br />
                   S. Nkosi KIT
                   <br />
-                  S. Nkosi CPL
+                  S. Nkosi NITEBASH
                 </td>
               </tr>
             </tbody>
