@@ -455,7 +455,7 @@ const Page = () => {
           </p>
           <p className="has-text-centered">
             Committee: Wesley Moodie (Chairperson), Paul Watson (Vice Chairperson), Fiona
-            Haughney (Honorary Secretary), Linda Hartely (Honorary Treasurer), James Sounes
+            Haughney (Honorary Secretary), Linda Hartley (Honorary Treasurer), Jimmy Sounes
             (Club Captain)
           </p>
         </section>
