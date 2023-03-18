@@ -18,6 +18,7 @@ $link-hover: $info;
 @import "bulma/sass/helpers/flexbox.sass";
 @import "bulma/sass/base/_all.sass";
 @import "bulma/sass/elements/container.sass";
+@import "bulma/sass/elements/box.sass";
 @import "bulma/sass/elements/table.sass";
 @import "bulma/sass/layout/footer.sass";
 @import "bulma/sass/layout/section.sass";
@@ -91,4 +92,17 @@ $link-hover: $info;
 
 .is-color-strikers-gold {
   color: $strikers-gold !important;
+}
+
+.has-background-DSCF8158 {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url("/images/photos/team.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.has-text-shadow-1 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
