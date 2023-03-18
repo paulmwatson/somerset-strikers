@@ -36,7 +36,7 @@ export default function Navigation() {
             <div className="navbar-item">
               <div className="buttons">
                 <Link href="/contact-us">
-                  <a className="button is-primary is-outlined">
+                  <a className="button is-outlined">
                     <strong>{t("navigation.contact-us")}</strong>
                   </a>
                 </Link>

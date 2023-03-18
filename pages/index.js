@@ -26,7 +26,7 @@ const Page = () => {
         <main className="content container is-max-width-30em has-text-centered mt-4">
           <p className="has-text-white has-text-shadow-1 is-size-5">{t("home.intro")}</p>
           <Link href="/join">
-            <a className="button is-link is-uppercase is-fullwidth is-large">
+            <a className="button is-danger is-uppercase is-fullwidth is-large">
               {t("home.join")}
             </a>
           </Link>
