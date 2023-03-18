@@ -1,4 +1,4 @@
-import { useTranslation, Trans } from "next-i18next";
+import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Header from "../components/header.tsx";
 import Navigation from "../components/navigation.tsx";
@@ -11,7 +11,7 @@ const Page = () => {
   const { t } = useTranslation();
 
   return (
-    <React.Fragment>
+    <div className="has-background-DSCF8158">
       <Header />
       <Navigation />
       <section className="section pt-5">
@@ -24,7 +24,7 @@ const Page = () => {
           />
         </header>
         <main className="content container is-max-width-30em has-text-centered mt-4">
-          <p>{t("home.intro")}</p>
+          <p className="has-text-white has-text-shadow-1 is-size-5">{t("home.intro")}</p>
           <Link href="/join">
             <a className="button is-link is-uppercase is-fullwidth is-large">
               {t("home.join")}
@@ -33,7 +33,7 @@ const Page = () => {
         </main>
       </section>
       <Footer />
-    </React.Fragment>
+    </div>
   );
 };
 
