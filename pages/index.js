@@ -11,7 +11,7 @@ const Page = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="has-background-DSCF8158">
+    <div className="container is-widescreen has-background-DSCF8158">
       <Header />
       <Navigation />
       <section className="section pt-5">
