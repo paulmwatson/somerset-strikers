@@ -9,7 +9,7 @@ const Page = () => {
   const { t } = useTranslation();
 
   return (
-    <React.Fragment>
+    <div className="container is-widescreen">
       <Header />
       <Navigation />
       <div className="container narrow">
@@ -67,7 +67,7 @@ const Page = () => {
         </section>
       </div>
       <Footer />
-    </React.Fragment>
+    </div>
   );
 };
 
