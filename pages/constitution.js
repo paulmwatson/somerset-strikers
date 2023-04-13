@@ -389,8 +389,8 @@ const Page = () => {
             </li>
             <li>
               To elect the Office Bearers for the ensuing year. Please note, the
-              election rules are to be found in the “AGM - Election of
-              Committee” process document.
+              election rules are to be found in the <Link href="/policies/annual-general-meeting-process"><a>“AGM - Election of
+              Committee” process document</a></Link>.
             </li>
             <li>
               To consider any proposed additions, alterations or amendments to
