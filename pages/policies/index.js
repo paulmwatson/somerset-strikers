@@ -16,7 +16,7 @@ const Page = () => {
       <Navigation />
       <div className="container narrow">
         <section className="section">
-          <h1 className="title has-text-centered">Policies</h1>
+          <h1 className="title has-text-centered">Policies and Processes</h1>
           <ol class="content">
             <li>
               <Link href="/policies/selection">
@@ -26,6 +26,11 @@ const Page = () => {
             <li>
               <Link href="/policies/anti-discrimination-code-of-conduct">
                 <a>Anti-Discrimination Policies and Codes of Conduct</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/policies/annual-general-meeting-process">
+                <a>Annual General Meeting Process</a>
               </Link>
             </li>
           </ol>
