@@ -140,7 +140,7 @@ const Page = () => {
             </li>
           </ul>
           <p className="content"></p>
-          <a href="https://goo.gl/maps/YKUCKK47MmZ8eZ7j7" rel="noopener">
+          <a href="https://goo.gl/maps/pb6rgbbfGghYCYqR8" rel="noopener">
             <Image
               src="/images/beaumont-primary-schoo-satellite-map.webp"
               alt="Google Maps Satellite View of Beaumont Primary School"
