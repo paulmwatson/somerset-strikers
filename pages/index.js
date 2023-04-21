@@ -11,10 +11,10 @@ const Page = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="container is-widescreen has-background-DSCF8158">
+    <div className="container is-widescreen">
       <Header />
       <Navigation />
-      <section className="section pt-5">
+      <section className="section pt-5 has-background-DSCF8158">
         <header className="has-text-centered">
           <Image
             src="/images/somerset-strikers-logo-1000x1290.webp"
@@ -24,13 +24,33 @@ const Page = () => {
           />
         </header>
         <main className="content container is-max-width-30em has-text-centered mt-4">
-          <p className="has-text-white has-text-shadow-1 is-size-5">{t("home.intro")}</p>
+          <p className="has-text-white has-text-shadow-1 is-size-5">
+            {t("home.intro")}
+          </p>
           <Link href="/join">
             <a className="button is-danger is-uppercase is-fullwidth is-large">
               {t("home.join")}
             </a>
           </Link>
         </main>
+      </section>
+      <section className="section has-background-white">
+        <h2 className="title has-text-centered is-1 is-uppercase">Sponsors</h2>
+        <div className="columns is-multiline is-centered">
+          <div className="column has-text-centered">
+            <a
+              href="https://www.facebook.com/fpelitecricketacademy/"
+              rel="noreferrer"
+            >
+              <Image
+                src="/images/sponsors/fpeliteacadaemylogo.webp"
+                alt="FP Elite Academy"
+                width="256"
+                height="256"
+              />
+            </a>
+          </div>
+        </div>
       </section>
       <Footer />
     </div>
