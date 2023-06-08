@@ -36,16 +36,73 @@ const Page = () => {
       </section>
       <section className="section has-background-white">
         <h2 className="title has-text-centered is-1 is-uppercase">Sponsors</h2>
-        <div className="columns is-multiline is-centered">
+        <p className="has-text-centered is-size-3">With thanks to our sponsors and supporters.</p>
+        <div className="columns is-multiline is-centered is-vcentered is-width-75-percent-and-centered">
           <div className="column has-text-centered">
-            <a
-              href="https://www.facebook.com/fpelitecricketacademy/"
-              rel="noreferrer"
-            >
+            <a href="https://www.specsavers.co.za/" rel="noreferrer">
+              <Image
+                src="/images/sponsors/specsaverslogo.webp"
+                alt="Spec-Savers South Africa"
+                width="582"
+                height="256"
+              />
+            </a>
+          </div>
+          <div className="column has-text-centered">
+            <a href="https://www.facebook.com/fpelitecricketacademy/" rel="noreferrer">
               <Image
                 src="/images/sponsors/fpeliteacadaemylogo.webp"
                 alt="FP Elite Academy"
                 width="256"
+                height="256"
+              />
+            </a>
+          </div>
+          <div className="column has-text-centered">
+            <a
+              href="https://www.jonssonworkwear.com/"
+              rel="noreferrer"
+            >
+              <Image
+                src="/images/sponsors/jonssonworkwearlogo.webp"
+                alt="Jonsson Workwear"
+                width="499"
+                height="256"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="columns is-multiline is-centered is-vcentered is-width-75-percent-and-centered">
+          <div className="column has-text-centered">
+            <a href="https://www.spar.co.za/home/store-view/kwikspar-twin-palms-western-cape" rel="noreferrer">
+              <Image
+                src="/images/sponsors/twinpalmskwiksparlogo.webp"
+                alt="Twin Palms KWIKSPAR"
+                width="1000"
+                height="109"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="columns is-multiline is-centered is-vcentered is-width-40-percent-and-centered">
+          <div className="column has-text-centered">
+            <a href="https://www.xtrovert.co.za/" rel="noreferrer">
+              <Image
+                src="/images/sponsors/xtrovertaccountinglogo.webp"
+                alt="Xtrovert Accounting"
+                width="678"
+                height="256"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="columns is-multiline is-centered is-vcentered is-width-40-percent-and-centered">
+          <div className="column has-text-centered ">
+            <a href="https://www.redstor.com/" rel="noreferrer">
+              <Image
+                src="/images/sponsors/redstorlogo.webp"
+                alt="Restor"
+                width="900"
                 height="256"
               />
             </a>

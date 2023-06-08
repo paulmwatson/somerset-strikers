@@ -95,14 +95,26 @@ $link-hover: $info;
 }
 
 .has-background-DSCF8158 {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4)
-  ), url("/images/photos/team.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/photos/team.webp");
   background-size: cover;
   background-position: top center;
 }
 
 .has-text-shadow-1 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.is-width-75-percent-and-centered {
+  @media screen and (min-width: 796px) {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+.is-width-40-percent-and-centered {
+  @media screen and (min-width: 796px) {
+    width: 40%;
+    margin: 0 auto;
+  }
 }
