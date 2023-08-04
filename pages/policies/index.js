@@ -17,7 +17,7 @@ const Page = () => {
       <div className="container narrow">
         <section className="section">
           <h1 className="title has-text-centered">Policies and Processes</h1>
-          <ol class="content">
+          <ol className="content">
             <li>
               <Link href="/policies/selection">
                 <a>Selection Policy and Ethos</a>

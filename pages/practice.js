@@ -89,7 +89,7 @@ const Page = () => {
                   <i className="fa-regular fa-id-card"></i>
                 </span>
                 <span>
-                  <strong>Register</strong> your attendance, it's part of the
+                  <strong>Register</strong> your attendance, it&apos;s part of the
                   match selection policy.
                 </span>
               </span>

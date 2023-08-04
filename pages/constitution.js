@@ -115,7 +115,7 @@ const Page = () => {
             and payments of the Club, shall submit financial reports to the
             Committee, as and when so required, and to present accounts for
             payment. It shall be the duty of the Honorary Treasurer to see that
-            all monies received are to be deposited in the Club's account.
+            all monies received are to be deposited in the Club&apos;s account.
           </p>
           <p>
             5.4.2. They shall act ex-officio on any sub-committee which may
@@ -150,7 +150,7 @@ const Page = () => {
             first meeting subsequent to the receipt of such communication.
           </p>
           <p>
-            5.5.5. To perform all duties relevant to the Secretary's Office.
+            5.5.5. To perform all duties relevant to the Secretary&apos;s Office.
           </p>
 
           <h2 className="title">6. ADDITIONAL POWERS</h2>
@@ -194,7 +194,7 @@ const Page = () => {
           </p>
           <p>
             6.8. To decide any disputes, points and questions arising out of
-            competitions played under the Club's jurisdiction.
+            competitions played under the Club&apos;s jurisdiction.
           </p>
           <p>
             6.9. In any enquiry, the Committee shall have the right to subpoena
@@ -237,7 +237,7 @@ const Page = () => {
           </p>
           <p>
             7.2. All members of the Club shall be duly registered in the
-            members' register of the Club.
+            members&apos; register of the Club.
           </p>
           <p>
             7.3. Any junior candidate for admission to the Club shall require a
@@ -349,7 +349,7 @@ const Page = () => {
           <p>
             14.1. The Annual General Meeting of the Club shall be held once a
             year prior to the new junior season starting, and the Secretary
-            shall give at least (14) fourteen days' notice of the date thereof
+            shall give at least (14) fourteen days&apos; notice of the date thereof
             to all members.
           </p>
 
@@ -383,7 +383,7 @@ const Page = () => {
             </li>
             <li>Matters arising therefrom.</li>
             <li>
-              To receive, confirm and adopt the Treasurer's Report and the
+              To receive, confirm and adopt the Treasurer&apos;s Report and the
               Audited Financial Statement and to discuss matters arising
               therefrom.
             </li>
