@@ -24,7 +24,7 @@ const Page = () => {
             appropriate in any given year - the details of which can be reviewed
             on an annual basis by the standing committee. The Selection Policy
             must be in line with the club objectives of catering for the needs
-            and expectations of the majority of the club's members in any given
+            and expectations of the majority of the club&apos;s members in any given
             age group. We believe it is not appropriate for an U13 team to be
             managed in the same way as an U10 team and therefore the Selection
             Policy should differ in various age groups as children mature in

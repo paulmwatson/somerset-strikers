@@ -20,7 +20,7 @@ const Page = () => {
           <h2 className="title">Introduction</h2>
           <p>
             This document seeks to detail the process of the Somerset Strikers
-            Cricket Club’s Annual General Meeting (AGM). Following is the
+            Cricket Club&apos;s Annual General Meeting (AGM). Following is the
             timeline for the notice of AGM and subsequent information around
             committee nominations, voting and publication of various notices.
           </p>
@@ -47,7 +47,7 @@ const Page = () => {
               Meeting or Special AGM. Matters arising therefrom.
             </li>
             <li>
-              To receive, confirm and adopt the Treasurer's Report and the
+              To receive, confirm and adopt the Treasurer&apos;s Report and the
               Independent Review of the Financial Statement and to discuss
               matters arising therefrom.
             </li>
@@ -65,7 +65,7 @@ const Page = () => {
           </ul>
 
           <h2 className="title">
-            The Club’s Committee election at annual AGM as follows:{" "}
+            The Club&apos;s Committee election at annual AGM as follows:{" "}
           </h2>
           <h3 className="title">Nominations: </h3>
           <ul>
