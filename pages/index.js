@@ -19,6 +19,7 @@ const Page = () => {
           href="https://bit.ly/sscc2324reg"
           rel="noreferrer"
           className="has-text-weight-bold is-underlined"
+          target="_blank"
         >
           Register
         </a>
