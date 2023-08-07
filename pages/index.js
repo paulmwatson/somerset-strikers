@@ -14,6 +14,17 @@ const Page = () => {
     <div className="container is-widescreen">
       <Header />
       <Navigation />
+      <section className="section has-background-warning has-text-centered is-size-4 has-text-black pt-3 pb-3">
+        <a
+          href="https://bit.ly/sscc2324reg"
+          rel="noreferrer"
+          className="has-text-weight-bold is-underlined"
+          target="_blank"
+        >
+          Register
+        </a>
+        {' '}for the 2023/2024 Western Province Youth League
+      </section>
       <section className="section pt-5 has-background-DSCF8158">
         <header className="has-text-centered">
           <Image
@@ -36,7 +47,9 @@ const Page = () => {
       </section>
       <section className="section has-background-white">
         <h2 className="title has-text-centered is-1 is-uppercase">Sponsors</h2>
-        <p className="has-text-centered is-size-3">With thanks to our sponsors and supporters.</p>
+        <p className="has-text-centered is-size-3">
+          With thanks to our sponsors and supporters.
+        </p>
         <div className="columns is-multiline is-centered is-vcentered is-width-75-percent-and-centered">
           <div className="column has-text-centered">
             <a href="https://www.specsavers.co.za/" rel="noreferrer">
@@ -49,7 +62,10 @@ const Page = () => {
             </a>
           </div>
           <div className="column has-text-centered">
-            <a href="https://www.facebook.com/fpelitecricketacademy/" rel="noreferrer">
+            <a
+              href="https://www.facebook.com/fpelitecricketacademy/"
+              rel="noreferrer"
+            >
               <Image
                 src="/images/sponsors/fpeliteacadaemylogo.webp"
                 alt="FP Elite Academy"
@@ -59,10 +75,7 @@ const Page = () => {
             </a>
           </div>
           <div className="column has-text-centered">
-            <a
-              href="https://www.jonssonworkwear.com/"
-              rel="noreferrer"
-            >
+            <a href="https://www.jonssonworkwear.com/" rel="noreferrer">
               <Image
                 src="/images/sponsors/jonssonworkwearlogo.webp"
                 alt="Jonsson Workwear"
@@ -74,7 +87,10 @@ const Page = () => {
         </div>
         <div className="columns is-multiline is-centered is-vcentered is-width-75-percent-and-centered">
           <div className="column has-text-centered">
-            <a href="https://www.spar.co.za/home/store-view/kwikspar-twin-palms-western-cape" rel="noreferrer">
+            <a
+              href="https://www.spar.co.za/home/store-view/kwikspar-twin-palms-western-cape"
+              rel="noreferrer"
+            >
               <Image
                 src="/images/sponsors/twinpalmskwiksparlogo.webp"
                 alt="Twin Palms KWIKSPAR"
