@@ -22,8 +22,8 @@ const Page = () => {
           target="_blank"
         >
           Register
-        </a>
-        {' '}for the 2023/2024 Western Province Youth League
+        </a>{" "}
+        for the 2023/2024 Western Province Youth League
       </section>
       <section className="section pt-5 has-background-DSCF8158">
         <header className="has-text-centered">

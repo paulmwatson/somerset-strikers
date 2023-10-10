@@ -33,6 +33,11 @@ const nextConfig = {
         destination: "/bank",
         permanent: false,
       },
+      {
+        source: "/fixtures",
+        destination: "/play",
+        permanent: true,
+      },
     ];
   },
 };

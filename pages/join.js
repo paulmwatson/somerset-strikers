@@ -33,20 +33,15 @@ const Page = () => {
           <table className="table is-fullwidth">
             <thead>
               <tr className="is-selected">
-                <th>
-                  <nobr>Type</nobr>
-                </th>
-                <th>
-                  <nobr>Fee</nobr>
-                </th>
+                <th className="has-no-wrap">Type</th>
+                <th className="has-no-wrap">Fee</th>
               </tr>
             </thead>
             <tbody>
               <tr className="has-background-yellow">
                 <td>
-                  <nobr>
-                    <strong>Full Junior</strong>
-                  </nobr>
+                  <strong className="has-no-wrap">Full Junior</strong>
+
                   <br />
                   <small>
                     Practice,{" "}
@@ -62,18 +57,14 @@ const Page = () => {
                 <td>
                   <strong>R1,300</strong>
                   <br />
-                  <small>
-                    <nobr>R650 by October 31</nobr>
-                    <br />
-                    <nobr>R650 by January 31</nobr>
-                  </small>
+                  <small className="has-no-wrap">R650 by October 31</small>
+                  <br />
+                  <small className="has-no-wrap">R650 by January 31</small>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <nobr>
-                    <strong>Social Junior</strong>
-                  </nobr>
+                  <strong className="has-no-wrap">Social Junior</strong>
                   <br />
                   <small>Practice, Internal Matches</small>
                 </td>
@@ -84,7 +75,9 @@ const Page = () => {
             </tbody>
           </table>
           <p className="content is-size-7">
-            * Note that your Somerset Strikers fee only covers being eligible for selection for tournaments. Any tournament fees are additional and for your account.
+            * Note that your Somerset Strikers fee only covers being eligible
+            for selection for tournaments. Any tournament fees are additional
+            and for your account.
           </p>
           <p className="content">
             You may pay the full fee or half by <strong>October 31</strong> and
@@ -104,17 +97,13 @@ const Page = () => {
                 </td>
               </tr>
               <tr>
-                <td>
-                  <nobr>Branch Code</nobr>
-                </td>
+                <td className="has-no-wrap">Branch Code</td>
                 <td>
                   <strong>250655</strong>
                 </td>
               </tr>
               <tr>
-                <td>
-                  <nobr>Account Number</nobr>
-                </td>
+                <td className="has-no-wrap">Account Number</td>
                 <td>
                   <strong>63020516134</strong>
                 </td>
@@ -124,7 +113,7 @@ const Page = () => {
                 <td>
                   <strong>Initial Surname SUBS</strong>
                   <br />
-                  e.g. 
+                  e.g.
                   <br />
                   S. Nkosi SUBS
                 </td>

@@ -25,20 +25,15 @@ const Page = () => {
           <table className="table is-fullwidth">
             <thead>
               <tr className="is-selected">
-                <th>
-                  <nobr>Group</nobr>
-                </th>
-                <th>
-                  <nobr>Time</nobr>
-                </th>
+                <th className="has-no-wrap">Group</th>
+                <th className="has-no-wrap">Time</th>
               </tr>
             </thead>
             <tbody>
               <tr className="has-background-yellow">
                 <td>
-                  <nobr>
-                    <strong>First Group</strong>
-                  </nobr>
+                  <strong className="has-no-wrap">First Group</strong>
+
                   <br />
                   <small>Born on or after 1 January 2013</small>
                 </td>
@@ -48,9 +43,7 @@ const Page = () => {
               </tr>
               <tr>
                 <td>
-                  <nobr>
-                    <strong>Second Group</strong>
-                  </nobr>
+                  <strong className="has-no-wrap">Second Group</strong>
                   <br />
                   <small>Born before 1 January 2013</small>
                 </td>
@@ -89,8 +82,8 @@ const Page = () => {
                   <i className="fa-regular fa-id-card"></i>
                 </span>
                 <span>
-                  <strong>Register</strong> your attendance, it&apos;s part of the
-                  match selection policy.
+                  <strong>Register</strong> your attendance, it&apos;s part of
+                  the match selection policy.
                 </span>
               </span>
             </li>
@@ -119,7 +112,10 @@ const Page = () => {
                 <span className="icon is-hidden-mobile">
                   <i className="fa-regular fa-circle-xmark"></i>
                 </span>
-                <span>No <strong>alcohol</strong> or <strong>smoking</strong> allowed.</span>
+                <span>
+                  No <strong>alcohol</strong> or <strong>smoking</strong>{" "}
+                  allowed.
+                </span>
               </span>
             </li>
             <li>

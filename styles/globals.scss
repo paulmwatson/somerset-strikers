@@ -31,6 +31,7 @@ $link-hover: $info;
 @import "bulma/sass/components/navbar.sass";
 @import "bulma/sass/components/media.sass";
 @import "bulma/sass/components/card.sass";
+@import "bulma/sass/components/tabs.sass";
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/regular";
@@ -117,4 +118,12 @@ $link-hover: $info;
     width: 40%;
     margin: 0 auto;
   }
+}
+
+.has-no-wrap {
+  white-space: nowrap;
+}
+
+.has-width-99-percent {
+  width: 99%;
 }

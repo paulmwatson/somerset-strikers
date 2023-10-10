@@ -32,7 +32,8 @@
         "brand": "Brand & Logo",
         "policies": "Policies & Processes",
         "home": "Home",
-        "return_home": "Return Home"
+        "return_home": "Return Home",
+        "fixtures": "Fixtures"
     },
     "pages": {
         "404": {
@@ -48,6 +49,11 @@
         "practice": {
             "title": "Practice",
             "intro": "We practice on Friday afternoon at Beaumont Primary School, Somerset West."
+        },
+        "play": {
+            "title": "Play",
+            "intro": "On most Saturdays during the season we play Western Province Youth League matches. We also play tournaments and arrange ad-hoc matches against other cricket clubs and schools.",
+            "fixtures": "Fixtures"
         },
         "brand": {
             "title": "Our Brand",
