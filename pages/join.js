@@ -21,15 +21,11 @@ const Page = () => {
           </p>
           <p className="content">
             The cricket club season runs from <strong>October to March</strong>{" "}
-            with regular practice and matches. We play{" "}
-            <strong>hard-ball</strong> cricket and cater for ages{" "}
-            <strong>U7 up to U15</strong>. A <strong>Full Junior</strong> member
-            is for any player wanting to practice and play competitive matches.
-            The discounted <strong>Social Junior</strong> member attends
-            practice and can play in internal matches. Parents or guardians do
-            not need to join as members.
+            with regular practice. We cater for ages{" "}
+            <strong>U7 up to U15</strong> and practice and play{" "}
+            <strong>hard-ball</strong> cricket.
           </p>
-          <table className="table is-fullwidth">
+          <table className="table is-fullwidth is-striped">
             <thead>
               <tr className="is-selected">
                 <th className="has-no-wrap">Type</th>
@@ -40,7 +36,6 @@ const Page = () => {
               <tr>
                 <td>
                   <strong className="has-no-wrap">Full Junior (U7-U13)</strong>
-
                   <br />
                   <small>
                     Practice,{" "}
@@ -60,7 +55,7 @@ const Page = () => {
               </tr>
               <tr>
                 <td>
-                  <strong className="has-no-wrap">Full Junior (U14/U15)</strong>
+                  <strong className="has-no-wrap">Full Youth (U14/U15)</strong>
                   <br />
                   <small>
                     Practice, Tournaments*, Friendly Matches, Internal Matches
@@ -76,7 +71,7 @@ const Page = () => {
               </tr>
               <tr>
                 <td>
-                  <strong className="has-no-wrap">Social Junior</strong>
+                  <strong className="has-no-wrap">Social Player</strong>
                   <br />
                   <small>Practice, Internal Matches</small>
                 </td>
