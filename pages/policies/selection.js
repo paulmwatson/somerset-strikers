@@ -34,8 +34,7 @@ const Page = () => {
           <h2 className="title">General Selection Policy</h2>
           <p>
             Paid-up players will be selected first, secondly players who
-            regularly make themselves available for matches, and thirdly by
-            players who have attended the greatest number of practices. Regular
+            regularly make themselves available for matches. Regular
             commitment makes planning & scheduling easier. Players willing to
             play a match who are not selected should typically be selected ahead
             of other players in the next match while considering the

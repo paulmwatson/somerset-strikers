@@ -27,29 +27,23 @@ const Page = () => {
               <tr className="is-selected">
                 <th className="has-no-wrap">Group</th>
                 <th className="has-no-wrap">Time</th>
+                <th className="has-no-wrap">Venue</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>
-                  <strong className="has-no-wrap">First Group</strong>
-
-                  <br />
-                  <small>Born on or after 1 January 2013</small>
+                  <strong className="has-no-wrap">U7-U12</strong>
                 </td>
-                <td>
-                  <strong>16:30 to 17:30</strong>
-                </td>
+                <td>16:45 to 18:00</td>
+                <td>Beaumont Primary School</td>
               </tr>
               <tr>
                 <td>
-                  <strong className="has-no-wrap">Second Group</strong>
-                  <br />
-                  <small>Born before 1 January 2013</small>
+                  <strong className="has-no-wrap">U13-U15</strong>
                 </td>
-                <td>
-                  <strong>17:45 to 19:00</strong>
-                </td>
+                <td>16:45 to 18:15</td>
+                <td>Parel Vallei High School</td>
               </tr>
             </tbody>
           </table>
@@ -73,17 +67,6 @@ const Page = () => {
                 </span>
                 <span>
                   Arrive at practice <strong>15 minutes</strong> before.
-                </span>
-              </span>
-            </li>
-            <li>
-              <span className="icon-text">
-                <span className="icon is-hidden-mobile">
-                  <i className="fa-regular fa-id-card"></i>
-                </span>
-                <span>
-                  <strong>Register</strong> your attendance, it&apos;s part of
-                  the match selection policy.
                 </span>
               </span>
             </li>
@@ -134,16 +117,23 @@ const Page = () => {
                 </span>
               </span>
             </li>
+            <li>
+              <span className="icon-text">
+                <span className="icon is-hidden-mobile">
+                  <i className="fa-regular fa-map"></i>
+                </span>
+                <span>
+                  <a
+                    href="https://maps.app.goo.gl/HFeXzz5sK1LApiVa6"
+                    rel="noopener"
+                  >
+                    Parel Vallei High School, Parel Valley Road, Somerset West
+                  </a>
+                  .
+                </span>
+              </span>
+            </li>
           </ul>
-          <p className="content"></p>
-          <a href="https://goo.gl/maps/pb6rgbbfGghYCYqR8" rel="noopener">
-            <Image
-              src="/images/beaumont-primary-schoo-satellite-map.webp"
-              alt="Google Maps Satellite View of Beaumont Primary School"
-              width="753"
-              height="753"
-            />
-          </a>
         </section>
       </div>
       <Footer />
