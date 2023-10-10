@@ -1,0 +1,205 @@
+{
+  "leagues": [
+    {
+      "shortName": "western-province-youth-league-2023-t4",
+      "name": "Western Province Youth League 2023 Term 4 Junior Saturday",
+      "description": "We have entered two U10, two U11, and one U13 team. Our U12 group will play-up in U13 matches. There are no league matches for U14/U15 but we will arrange ad-hoc matches.",
+      "groups": [
+        {
+          "shortName": "u10",
+          "name": "U10 Premier",
+          "fixtures": [
+            {
+              "team": "U10 (1)",
+              "opposition": "Durbanville CC (1)",
+              "venue": "Home",
+              "date": "2023-10-21"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Curro Durbanville",
+              "venue": "Away",
+              "date": "2023-10-21"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "All Rounder CA (2)",
+              "venue": "Away",
+              "date": "2023-10-28"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Brackenfell CC",
+              "venue": "Home",
+              "date": "2023-10-28"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Curro Durbanville",
+              "venue": "Home",
+              "date": "2023-11-04"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Somerset West CC (1)",
+              "venue": "TBC",
+              "date": "2023-11-04"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "United CC",
+              "venue": "TBC",
+              "date": "2023-11-11"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "All Rounder CA (1)",
+              "venue": "Home",
+              "date": "2023-11-11"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Tygerberg CC (1)",
+              "venue": "Home",
+              "date": "2023-11-18"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Khayelitsha CC",
+              "venue": "TBC",
+              "date": "2023-11-18"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Belville CC",
+              "venue": "TBC",
+              "date": "2023-11-25"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Kenridge PS",
+              "venue": "Home",
+              "date": "2023-11-25"
+            }
+          ]
+        },
+        {
+          "shortName": "u11",
+          "name": "U11 Premier",
+          "fixtures": [
+            {
+              "team": "U11 (1)",
+              "opposition": "Greenpoint CC (1)",
+              "venue": "TBC",
+              "date": "2023-10-21"
+            },
+            {
+              "team": "U11 (2)",
+              "bye": true,
+              "date": "2023-10-21"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Strandfontein CC",
+              "venue": "Home",
+              "date": "2023-10-28"
+            },
+            {
+              "team": "U11 (2)",
+              "bye": true,
+              "date": "2023-10-28"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Khayelitsha CC",
+              "venue": "TBC",
+              "date": "2023-11-04"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Victoria CC (2)",
+              "venue": "Home",
+              "date": "2023-11-04"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Peninsula CA (1)",
+              "venue": "Home",
+              "date": "2023-11-11"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Strand CC",
+              "venue": "TBC",
+              "date": "2023-11-11"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Ottoman CC",
+              "venue": "TBC",
+              "date": "2023-11-18"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Rylands CC",
+              "venue": "Home",
+              "date": "2023-11-18"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "United CC",
+              "venue": "Home",
+              "date": "2023-11-25"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Fish Rite Hanover Park",
+              "venue": "Home",
+              "date": "2023-11-25"
+            }
+          ]
+        },
+        {
+          "shortName": "u13a",
+          "name": "U13A Premier",
+          "fixtures": [
+            {
+              "team": "U13",
+              "bye": true,
+              "date": "2023-10-21"
+            },
+            {
+              "team": "U13",
+              "bye": true,
+              "date": "2023-10-28"
+            },
+            {
+              "team": "U13",
+              "opposition": "Peninsula CA",
+              "venue": "Away",
+              "date": "2023-11-04"
+            },
+            {
+              "team": "U13",
+              "opposition": "Strandfontein CC",
+              "venue": "Home",
+              "date": "2023-11-11"
+            },
+            {
+              "team": "U13",
+              "opposition": "Brackenfell CC",
+              "venue": "TBC",
+              "date": "2023-11-18"
+            },
+            {
+              "team": "U13",
+              "opposition": "Curro Durbanville (1)",
+              "venue": "Away",
+              "date": "2023-11-25"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

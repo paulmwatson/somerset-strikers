@@ -29,16 +29,16 @@ const Page = () => {
                 </td>
               </tr>
               <tr>
-                <td>
-                  <nobr>Branch Code</nobr>
+                <td className="has-no-wrap">
+                  Branch Code
                 </td>
                 <td>
                   <strong>250655</strong>
                 </td>
               </tr>
               <tr>
-                <td>
-                  <nobr>Account Number</nobr>
+                <td className="has-no-wrap">
+                  Account Number
                 </td>
                 <td>
                   <strong>63020516134</strong>

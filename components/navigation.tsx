@@ -28,8 +28,8 @@ export default function Navigation() {
             <Link href="/practice">
               <a className="navbar-item">{t("navigation.practice")}</a>
             </Link>
-            <Link href="/">
-              <a className="navbar-item is-hidden">{t("navigation.play")}</a>
+            <Link href="/play">
+              <a className="navbar-item">{t("navigation.play")}</a>
             </Link>
           </div>
           <div className="navbar-end">
