@@ -30,7 +30,7 @@ const Page = () => {
               </tr>
             </thead>
             <tbody>
-              <tr className="has-background-yellow">
+              <tr>
                 <td>
                   <strong className="has-no-wrap">First Group</strong>
 
