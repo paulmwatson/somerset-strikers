@@ -64,8 +64,8 @@ export default function Navigation() {
           </Link>
         </div>
         <div className="column">
-          <Link href="/contact-us">
-            <a>{t("navigation.contact-us")}</a>
+          <Link href="/play">
+            <a>{t("navigation.fixtures")}</a>
           </Link>
         </div>
       </div>
@@ -90,6 +90,11 @@ export default function Navigation() {
         <div className="column">
           <Link href="/bank">
             <a>{t("navigation.bank")}</a>
+          </Link>
+        </div>
+        <div className="column">
+          <Link href="/contact-us">
+            <a>{t("navigation.contact-us")}</a>
           </Link>
         </div>
       </div>

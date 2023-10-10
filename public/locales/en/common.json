@@ -32,7 +32,8 @@
         "brand": "Brand & Logo",
         "policies": "Policies & Processes",
         "home": "Home",
-        "return_home": "Return Home"
+        "return_home": "Return Home",
+        "fixtures": "Fixtures"
     },
     "pages": {
         "404": {
