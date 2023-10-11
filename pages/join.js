@@ -62,11 +62,11 @@ const Page = () => {
                   </small>
                 </td>
                 <td>
-                  <strong>R1,020</strong>
+                  <strong>R1,000</strong>
                   <br />
-                  <small className="has-no-wrap">R510 by October 31</small>
+                  <small className="has-no-wrap">R500 by October 31</small>
                   <br />
-                  <small className="has-no-wrap">R510 by January 31</small>
+                  <small className="has-no-wrap">R500 by January 31</small>
                 </td>
               </tr>
               <tr>
