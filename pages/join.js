@@ -1,9 +1,8 @@
-import { useTranslation, Trans } from "next-i18next";
+import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Header from "../components/header.tsx";
 import Navigation from "../components/navigation.tsx";
 import Footer from "../components/footer.tsx";
-import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
@@ -22,15 +21,11 @@ const Page = () => {
           </p>
           <p className="content">
             The cricket club season runs from <strong>October to March</strong>{" "}
-            with regular practice and matches. We play{" "}
-            <strong>hard-ball</strong> cricket and cater for ages{" "}
-            <strong>U7 up to U13</strong>. A <strong>Full Junior</strong> member
-            is for any player wanting to practice and play competitive matches.
-            The discounted <strong>Social Junior</strong> member attends
-            practice and can play in internal matches. Parents or guardians do
-            not need to join as members.
+            with regular practice. We cater for ages{" "}
+            <strong>U7 up to U15</strong> and practice and play{" "}
+            <strong>hard-ball</strong> cricket.
           </p>
-          <table className="table is-fullwidth">
+          <table className="table is-fullwidth is-striped">
             <thead>
               <tr className="is-selected">
                 <th className="has-no-wrap">Type</th>
@@ -38,19 +33,15 @@ const Page = () => {
               </tr>
             </thead>
             <tbody>
-              <tr className="has-background-yellow">
+              <tr>
                 <td>
-                  <strong className="has-no-wrap">Full Junior</strong>
-
+                  <strong className="has-no-wrap">Full Junior (U7-U13)</strong>
                   <br />
                   <small>
                     Practice,{" "}
-                    <a
-                      href="https://newlandscricket.com/youth-cricket/"
-                      rel="noopener"
-                    >
-                      WP Youth League
-                    </a>
+                    <Link href="/play">
+                      <a>WP Youth League</a>
+                    </Link>
                     , Tournaments*, Friendly Matches, Internal Matches
                   </small>
                 </td>
@@ -64,7 +55,23 @@ const Page = () => {
               </tr>
               <tr>
                 <td>
-                  <strong className="has-no-wrap">Social Junior</strong>
+                  <strong className="has-no-wrap">Full Youth (U14/U15)</strong>
+                  <br />
+                  <small>
+                    Practice, Tournaments*, Friendly Matches, Internal Matches
+                  </small>
+                </td>
+                <td>
+                  <strong>R1,000</strong>
+                  <br />
+                  <small className="has-no-wrap">R500 by October 31</small>
+                  <br />
+                  <small className="has-no-wrap">R500 by January 31</small>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong className="has-no-wrap">Social Player</strong>
                   <br />
                   <small>Practice, Internal Matches</small>
                 </td>
@@ -80,7 +87,7 @@ const Page = () => {
             and for your account.
           </p>
           <p className="content">
-            You may pay the full fee or half by <strong>October 31</strong> and
+            You may pay the full fee, or half by <strong>October 31</strong> and
             the remaining amount by <strong>January 31</strong>.
           </p>
           <table className="table is-fullwidth">
