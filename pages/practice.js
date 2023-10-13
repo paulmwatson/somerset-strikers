@@ -48,6 +48,15 @@ const Page = () => {
                 <td>Parel Vallei High School</td>
               </tr>
             </tbody>
+            <tfoot>
+              <tr>
+                <td colSpan="3">
+                  <p className="content is-size-7">
+                    * U7, U8, and U9 practice with U10
+                  </p>
+                </td>
+              </tr>
+            </tfoot>
           </table>
           <ul className="content">
             <li>
@@ -134,13 +143,43 @@ const Page = () => {
             </li>
           </ul>
           <p className="content is-size-7">
-            * u7, u8, and u9 practice with u10.
-          </p>
-          <p className="content is-size-7">
             ** No spikes at practice at Beaumont Primary School. Bring both
             spiked and non-spiked shoes for practice at Parel Vallei High
             School.
           </p>
+          <table className="table is-fullwidth">
+            <thead>
+              <tr className="is-selected">
+                <th className="has-no-wrap">Group</th>
+                <th className="has-no-wrap">Ball Size</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong className="has-no-wrap">U10-U11</strong>
+                </td>
+                <td>113g</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong className="has-no-wrap">U12-U13</strong>
+                </td>
+                <td>135g</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong className="has-no-wrap">U14-U15</strong>
+                </td>
+                <td>156g</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colSpan="2"></td>
+              </tr>
+            </tfoot>
+          </table>
         </section>
       </div>
       <Footer />
