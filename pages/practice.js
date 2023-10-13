@@ -1,11 +1,9 @@
-import { useTranslation, Trans } from "next-i18next";
+import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Header from "../components/header.tsx";
 import Navigation from "../components/navigation.tsx";
 import Footer from "../components/footer.tsx";
-import Image from "next/image";
 import React from "react";
-import Link from "next/link";
 
 const Page = () => {
   const { t } = useTranslation();
@@ -19,8 +17,12 @@ const Page = () => {
           <h1 className="title  has-text-centered">
             {t("pages.practice.title")}
           </h1>
-          <p className="content is-size-4  has-text-centered">
+          <p className="content is-size-4 has-text-centered">
             {t("pages.practice.intro")}
+          </p>
+          <p className="content">
+            We practice and play hard-ball cricket. We do not offer Mini Cricket
+            yet.
           </p>
           <table className="table is-fullwidth">
             <thead>
@@ -33,7 +35,7 @@ const Page = () => {
             <tbody>
               <tr>
                 <td>
-                  <strong className="has-no-wrap">U7-U12</strong>
+                  <strong className="has-no-wrap">U10-U12*</strong>
                 </td>
                 <td>16:45 to 18:00</td>
                 <td>Beaumont Primary School</td>
@@ -47,7 +49,6 @@ const Page = () => {
               </tr>
             </tbody>
           </table>
-
           <ul className="content">
             <li>
               <span className="icon-text">
@@ -56,7 +57,7 @@ const Page = () => {
                 </span>
                 <span>
                   <strong>Bring</strong> a hard-ball, bat, helmet, pads, gloves,
-                  and shoes (no spikes).
+                  and shoes**
                 </span>
               </span>
             </li>
@@ -66,7 +67,7 @@ const Page = () => {
                   <i className="fa-regular fa-clock"></i>
                 </span>
                 <span>
-                  Arrive at practice <strong>15 minutes</strong> before.
+                  Arrive at practice <strong>15 minutes</strong> before
                 </span>
               </span>
             </li>
@@ -76,7 +77,7 @@ const Page = () => {
                   <i className="fa-regular fa-circle-user"></i>
                 </span>
                 <span>
-                  <strong>Bystanders</strong> to stay off practice area.
+                  <strong>Bystanders</strong> to stay off practice area
                 </span>
               </span>
             </li>
@@ -86,7 +87,7 @@ const Page = () => {
                   <i className="fa-regular fa-circle-check"></i>
                 </span>
                 <span>
-                  Bags, bottles etc. <strong>neatly</strong> lined up.
+                  Bags, bottles etc. <strong>neatly</strong> lined up
                 </span>
               </span>
             </li>
@@ -96,8 +97,8 @@ const Page = () => {
                   <i className="fa-regular fa-circle-xmark"></i>
                 </span>
                 <span>
-                  No <strong>alcohol</strong> or <strong>smoking</strong>{" "}
-                  allowed.
+                  No <strong>alcohol</strong> or <strong>smoking/vaping</strong>{" "}
+                  allowed
                 </span>
               </span>
             </li>
@@ -113,7 +114,6 @@ const Page = () => {
                   >
                     Beaumont Primary School, Van Der Merwe Road, Somerset West
                   </a>
-                  .
                 </span>
               </span>
             </li>
@@ -129,11 +129,18 @@ const Page = () => {
                   >
                     Parel Vallei High School, Parel Valley Road, Somerset West
                   </a>
-                  .
                 </span>
               </span>
             </li>
           </ul>
+          <p className="content is-size-7">
+            * u7, u8, and u9 practice with u10.
+          </p>
+          <p className="content is-size-7">
+            ** No spikes at practice at Beaumont Primary School. Bring both
+            spiked and non-spiked shoes for practice at Parel Vallei High
+            School.
+          </p>
         </section>
       </div>
       <Footer />
