@@ -11,33 +11,35 @@ const Page = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="container is-widescreen">
-      <Header />
-      <Navigation />
-      <div className="container narrow">
-        <section className="section">
-          <h1 className="title has-text-centered">Policies and Processes</h1>
-          <ol className="content">
-            <li>
-              <Link href="/policies/selection">
-                <a>Selection Policy and Ethos</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/policies/anti-discrimination-code-of-conduct">
-                <a>Anti-Discrimination Policies and Codes of Conduct</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/policies/annual-general-meeting-process">
-                <a>Annual General Meeting Process</a>
-              </Link>
-            </li>
-          </ol>
-        </section>
+    <>
+      <div className="container is-widescreen">
+        <Header />
+        <Navigation />
+        <div className="container narrow">
+          <section className="section">
+            <h1 className="title has-text-centered">Policies and Processes</h1>
+            <ol className="content">
+              <li>
+                <Link href="/policies/selection">
+                  <a>Selection Policy and Ethos</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/policies/anti-discrimination-code-of-conduct">
+                  <a>Anti-Discrimination Policies and Codes of Conduct</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/policies/annual-general-meeting-process">
+                  <a>Annual General Meeting Process</a>
+                </Link>
+              </li>
+            </ol>
+          </section>
+        </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
