@@ -44,48 +44,32 @@ export default function Navigation() {
       </div>
       <div className="columns is-mobile has-text-centered is-max-width-480">
         <div className="column">
-          <Link href="/join">
-            <a>{t("navigation.join")}</a>
-          </Link>
+          <Link href="/join">{t("navigation.join")}</Link>
         </div>
         <div className="column">
-          <Link href="/practice">
-            <a>{t("navigation.practice")}</a>
-          </Link>
+          <Link href="/practice">{t("navigation.practice")}</Link>
         </div>
         <div className="column">
-          <Link href="/play">
-            <a>{t("navigation.fixtures")}</a>
-          </Link>
+          <Link href="/play">{t("navigation.fixtures")}</Link>
         </div>
       </div>
       <div className="columns is-mobile has-text-centered is-max-width-480">
         <div className="column">
-          <Link href="/constitution">
-            <a>{t("navigation.constitution")}</a>
-          </Link>
+          <Link href="/constitution">{t("navigation.constitution")}</Link>
         </div>
         <div className="column">
-          <Link href="/policies">
-            <a>{t("navigation.policies")}</a>
-          </Link>
+          <Link href="/policies">{t("navigation.policies")}</Link>
         </div>
         <div className="column">
-          <Link href="/brand">
-            <a>{t("navigation.brand")}</a>
-          </Link>
+          <Link href="/brand">{t("navigation.brand")}</Link>
         </div>
       </div>
       <div className="columns is-mobile has-text-centered is-max-width-480">
         <div className="column">
-          <Link href="/bank">
-            <a>{t("navigation.bank")}</a>
-          </Link>
+          <Link href="/bank">{t("navigation.bank")}</Link>
         </div>
         <div className="column">
-          <Link href="/contact-us">
-            <a>{t("navigation.contact-us")}</a>
-          </Link>
+          <Link href="/contact-us">{t("navigation.contact-us")}</Link>
         </div>
       </div>
       <div className="section">

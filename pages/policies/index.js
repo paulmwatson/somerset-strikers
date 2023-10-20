@@ -21,17 +21,17 @@ const Page = () => {
             <ol className="content">
               <li>
                 <Link href="/policies/selection">
-                  <a>Selection Policy and Ethos</a>
+                  Selection Policy and Ethos
                 </Link>
               </li>
               <li>
                 <Link href="/policies/anti-discrimination-code-of-conduct">
-                  <a>Anti-Discrimination Policies and Codes of Conduct</a>
+                  Anti-Discrimination Policies and Codes of Conduct
                 </Link>
               </li>
               <li>
                 <Link href="/policies/annual-general-meeting-process">
-                  <a>Annual General Meeting Process</a>
+                  Annual General Meeting Process
                 </Link>
               </li>
             </ol>

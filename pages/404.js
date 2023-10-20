@@ -24,10 +24,11 @@ const Page = () => {
         </header>
         <main className="content container is-max-width-30em has-text-centered mt-4">
           <p className="is-size-6">{t("pages.404.intro")}</p>
-          <Link href="/">
-            <a className="button is-success is-uppercase is-fullwidth is-large">
-              {t("navigation.return_home")}
-            </a>
+          <Link
+            href="/"
+            className="button is-success is-uppercase is-fullwidth is-large"
+          >
+            {t("navigation.return_home")}
           </Link>
         </main>
       </section>

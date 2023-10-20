@@ -43,11 +43,8 @@ const Page = () => {
                     </strong>
                     <br />
                     <small>
-                      Practice,{" "}
-                      <Link href="/play">
-                        <a>WP Youth League</a>
-                      </Link>
-                      , Tournaments*, Friendly Matches, Internal Matches
+                      Practice, <Link href="/play">WP Youth League</Link>,
+                      Tournaments*, Friendly Matches, Internal Matches
                     </small>
                   </td>
                   <td>

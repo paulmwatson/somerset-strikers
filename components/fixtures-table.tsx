@@ -26,7 +26,7 @@ export default function FixturesTable({
                     <Link
                       href={`/play/${league.shortName}/${group.shortName}/fixtures`}
                     >
-                      <a>{group.name}</a>
+                      {group.name}
                     </Link>
                   </li>
                 ))}
