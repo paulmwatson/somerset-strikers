@@ -12,23 +12,25 @@ const Page = ({ currentLeague, currentGroup }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="container is-widescreen">
-      <Header />
-      <Navigation />
-      <div className="container narrow">
-        <section className="section">
-          <h1 className="title has-text-centered">
-            {t("pages.play.fixtures")}
-          </h1>
-        </section>
+    <>
+      <div className="container is-widescreen">
+        <Header />
+        <Navigation />
+        <div className="container narrow">
+          <section className="section">
+            <h1 className="title has-text-centered">
+              {t("pages.play.fixtures")}
+            </h1>
+          </section>
+        </div>
+        <FixturesTable
+          currentLeague={currentLeague}
+          currentGroup={currentGroup}
+          leagues={data.leagues}
+        />
       </div>
-      <FixturesTable
-        currentLeague={currentLeague}
-        currentGroup={currentGroup}
-        leagues={data.leagues}
-      />
       <Footer />
-    </div>
+    </>
   );
 };
 
