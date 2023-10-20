@@ -36,18 +36,6 @@ const Page = () => {
             <div className="column">
               <a
                 className="button is-medium is-outlined is-multiline"
-                href={`https://twitter.com/SomersetSCC`}
-                rel="noopener"
-              >
-                <span className="icon is-medium">
-                  <i className="fab fa-twitter"></i>
-                </span>
-                <span>{t("twitter")}</span>
-              </a>
-            </div>
-            <div className="column">
-              <a
-                className="button is-medium is-outlined is-multiline"
                 href={`https://www.instagram.com/somersetstrikers/`}
                 rel="noopener"
               >
