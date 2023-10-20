@@ -21,11 +21,11 @@
     "sharp": "^0.30.7"
   },
   "devDependencies": {
-    "checkly": "latest",
-    "cypress": "^10.6.0",
+    "checkly": "^4.2.0",
+    "cypress": "13.3.2",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
     "ts-node": "latest",
-    "typescript": "latest"
+    "typescript": "^5.2.2"
   }
 }
