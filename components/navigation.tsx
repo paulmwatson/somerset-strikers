@@ -17,6 +17,22 @@ export default function Navigation() {
               height={28}
             />
           </Link>
+          <a
+            role="button"
+            className="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+            onClick={() => {
+              document
+                .querySelector(".navbar-menu")
+                .classList.toggle("is-active");
+            }}
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
         <div className="navbar-menu">
           <div className="navbar-start">
