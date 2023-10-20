@@ -41,19 +41,6 @@ export default function Header() {
       <meta property="og:type" content="website" />
       <meta property="og:title" content={t("site.title")} />
       <meta property="og:description" content={t("site.description")} />
-
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="somersetstrikers.co.za" />
-      <meta
-        property="twitter:url"
-        content="https://www.somersetstrikers.co.za/"
-      />
-      <meta name="twitter:title" content={t("site.title")} />
-      <meta name="twitter:description" content={t("site.description")} />
-      <meta
-        name="twitter:image"
-        content="https://www.somersetstrikers.co.za/profile.webp"
-      />
     </Head>
   );
 }

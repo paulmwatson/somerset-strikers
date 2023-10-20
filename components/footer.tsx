@@ -18,16 +18,6 @@ export default function Navigation() {
             </span>
           </a>
         </div>
-        <div className="column">
-          <a href="https://twitter.com/SomersetSCC/" target="noopener">
-            <span className="icon-text">
-              <span className="icon">
-                <i className="fa-brands fa-twitter fa-2xl"></i>
-              </span>
-              <span className="sr-only">{t("twitter")}</span>
-            </span>
-          </a>
-        </div>
         <div className="column has-text-centered">
           <a
             href="https://www.instagram.com/somersetstrikers/"
