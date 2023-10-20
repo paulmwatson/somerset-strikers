@@ -292,9 +292,7 @@ const Page = () => {
             </p>
             <p>
               Refer to the published{" "}
-              <Link href="/policies/selection">
-                <a>“Selection Policy”</a>
-              </Link>{" "}
+              <Link href="/policies/selection">“Selection Policy”</Link>{" "}
               document for a full explanation on the Selection Policy.
             </p>
 
@@ -307,7 +305,7 @@ const Page = () => {
             <p>
               Please refer to the{" "}
               <Link href="/policies/anti-discrimination-code-of-conduct">
-                <a>“Anti-Discrimation Policy”</a>
+                “Anti-Discrimation Policy”
               </Link>{" "}
               document for the detailed policy.
             </p>
@@ -404,7 +402,7 @@ const Page = () => {
                 To elect the Office Bearers for the ensuing year. Please note,
                 the election rules are to be found in the{" "}
                 <Link href="/policies/annual-general-meeting-process">
-                  <a>“AGM - Election of Committee” process document</a>
+                  “AGM - Election of Committee” process document
                 </Link>
                 .
               </li>

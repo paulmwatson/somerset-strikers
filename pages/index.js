@@ -39,10 +39,11 @@ const Page = () => {
             <p className="has-text-white has-text-shadow-1 is-size-5">
               {t("home.intro")}
             </p>
-            <Link href="/join">
-              <a className="button is-danger is-uppercase is-fullwidth is-large">
-                {t("home.join")}
-              </a>
+            <Link
+              href="/join"
+              className="button is-danger is-uppercase is-fullwidth is-large"
+            >
+              {t("home.join")}
             </Link>
           </main>
         </section>
