@@ -62,7 +62,7 @@ const Page = () => {
           </section>
         </div>
         <div className="container is-widescreen">
-          <div className="columns px-6 px-0-mobile">
+          <div className="columns px-6 px-1-0-mobile">
             <div className="column">
               <div className="card">
                 <div className="card-content">
