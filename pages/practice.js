@@ -39,7 +39,7 @@ const Page = () => {
                     <strong className="has-no-wrap">U10-U12*</strong>
                   </td>
                   <td>16:45 to 18:00</td>
-                  <td>Beaumont Primary School</td>
+                  <td>Beaumont Primary School***</td>
                 </tr>
                 <tr>
                   <td>
@@ -54,6 +54,9 @@ const Page = () => {
                   <td colSpan="3">
                     <p className="content is-size-7">
                       * U7, U8, and U9 practice with U10
+                    </p>
+                    <p className="content is-size-7 has-text-danger">
+                      *** For just Friday the 3rd of November all age groups will practice at Parel Vallei High School andd not Beaumont Primary School
                     </p>
                   </td>
                 </tr>
