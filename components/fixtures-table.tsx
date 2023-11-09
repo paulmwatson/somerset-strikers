@@ -13,11 +13,11 @@ export default function FixturesTable({
         .map((league) => (
           <>
             <section className="section pt-0 pb-0" key={league.shortName}>
-              <h2 className="title is-size-4">{league.name}</h2>
-              <p className="content">{league.description}</p>
+              <h2 className="title is-size-4 is-size-5-mobile">{league.name}</h2>
+              <p className="content is-size-6-mobile">{league.description}</p>
             </section>
             <section className="section px-0-mobile">
-              <div className="tabs">
+              <div className="tabs mb-0 pb-0">
                 <ul>
                   {league.groups.map((group) => (
                     <li
@@ -39,7 +39,7 @@ export default function FixturesTable({
                 .filter((group) => group.shortName == currentGroup)
                 .map((group) => (
                   <table
-                    className="table is-fullwidth is-striped"
+                    className="table is-fullwidth is-striped is-size-7-mobile"
                     key={`${league.shortName}${group.shortName}`}
                   >
                     <thead>
@@ -66,7 +66,7 @@ export default function FixturesTable({
                           ) : (
                             <>
                               <td>{fixture.opposition}</td>
-                              <td>{fixture.venue}</td>
+                              <td align="center">{fixture.venue}</td>
                             </>
                           )}
                         </tr>
@@ -75,7 +75,9 @@ export default function FixturesTable({
                     <tfoot>
                       <tr>
                         <td colSpan={4} align="center">
-                          Bye (No Match) TBC (To Be Confirmed)
+                          <p className="is-size-7">
+                            Bye (No Match) TBC (To Be Confirmed)
+                          </p>
                         </td>
                       </tr>
                     </tfoot>
