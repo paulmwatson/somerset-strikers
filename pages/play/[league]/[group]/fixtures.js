@@ -22,12 +22,12 @@ const Page = ({ currentLeague, currentGroup }) => {
               {t("pages.play.fixtures")}
             </h1>
           </section>
+          <FixturesTable
+            currentLeague={currentLeague}
+            currentGroup={currentGroup}
+            leagues={data.leagues}
+          />
         </div>
-        <FixturesTable
-          currentLeague={currentLeague}
-          currentGroup={currentGroup}
-          leagues={data.leagues}
-        />
       </div>
       <Footer />
     </>
