@@ -36,14 +36,14 @@ const Page = () => {
               <tbody>
                 <tr>
                   <td>
-                    <strong className="has-no-wrap">U10-U12*</strong>
+                    <strong className="has-no-wrap">U10 to U11*</strong>
                   </td>
                   <td>16:45 to 18:00</td>
                   <td>Beaumont Primary School</td>
                 </tr>
                 <tr>
                   <td>
-                    <strong className="has-no-wrap">U13-U15</strong>
+                    <strong className="has-no-wrap">U12 to U15</strong>
                   </td>
                   <td>16:45 to 18:15</td>
                   <td>Parel Vallei High School</td>
