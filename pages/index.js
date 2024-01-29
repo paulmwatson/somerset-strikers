@@ -15,17 +15,6 @@ const Page = () => {
       <div className="container is-widescreen">
         <Header />
         <Navigation />
-        <section className="section has-background-warning has-text-centered is-size-4 has-text-black pt-3 pb-3">
-          <a
-            href="https://bit.ly/sscc2324reg"
-            rel="noreferrer"
-            className="has-text-weight-bold is-underlined"
-            target="_blank"
-          >
-            Register
-          </a>{" "}
-          for the 2023/2024 Western Province Youth League
-        </section>
         <section className="section pt-5 has-background-DSCF8158">
           <header className="has-text-centered">
             <Image
