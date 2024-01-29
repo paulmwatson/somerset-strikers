@@ -5,6 +5,7 @@ import Navigation from "../components/navigation.tsx";
 import Footer from "../components/footer.tsx";
 import React from "react";
 import Link from "next/link";
+import { Trans } from "react-i18next";
 
 const Page = () => {
   const { t } = useTranslation();
@@ -15,12 +16,22 @@ const Page = () => {
         <Header />
         <Navigation />
         <div className="container narrow">
-          <section className="section">
+          <section className="section content">
             <h1 className="title  has-text-centered">
               {t("pages.join.title")}
             </h1>
             <p className="content is-size-4  has-text-centered">
-              {t("pages.join.intro")}
+              Joining Somerset Strikers is easy.{" "}
+              <a
+                href="https://bit.ly/sscc2324reg"
+                rel="noreferrer"
+                className="has-text-weight-bold is-underlined"
+                target="_blank"
+              >
+                Register
+              </a>{" "}
+              and then attend one of our practice sessions and see what Somerset
+              Strikers is all about.
             </p>
             <p className="content">
               The cricket club season runs from{" "}
