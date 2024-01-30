@@ -27,13 +27,15 @@ const Page = () => {
               {t("pages.play.intro")}
             </p>
           </section>
+          <h2 className="title  has-text-centered">
+            {t("pages.play.fixtures")}
+          </h2>
+          <FixturesTable
+            currentLeague={data.leagues[0].shortName}
+            currentGroup={data.leagues[0].groups[0].shortName}
+            leagues={data.leagues}
+          />
         </div>
-        <h2 className="title  has-text-centered">{t("pages.play.fixtures")}</h2>
-        <FixturesTable
-          currentLeague={data.leagues[0].shortName}
-          currentGroup={data.leagues[0].groups[0].shortName}
-          leagues={data.leagues}
-        />
       </div>
       <Footer />
     </>
