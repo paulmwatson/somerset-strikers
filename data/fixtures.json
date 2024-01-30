@@ -1,6 +1,281 @@
 {
   "leagues": [
     {
+      "shortName": "western-province-youth-league-2024-t1",
+      "name": "Western Province Youth League 2024 Term 1 Junior Saturday",
+      "description": "We have entered two U10, two U11, and two U13 teams. Our U12 group will play-up in U13 matches. Fixtures are subject to change.",
+      "groups": [
+        {
+          "shortName": "u10",
+          "name": "U10 Premier",
+          "fixtures": [
+            {
+              "team": "U10 (1)",
+              "bye": true,
+              "date": "2024-02-03"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Durbanville CC",
+              "venue": "Away",
+              "date": "2024-02-03"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Durbanville CC",
+              "venue": "Away",
+              "date": "2024-02-10"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Old Cross Roads CC",
+              "venue": "Home",
+              "date": "2024-02-10"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Langa CC",
+              "venue": "Home",
+              "date": "2024-02-17"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Rylands CC",
+              "venue": "Home",
+              "date": "2024-02-17"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Edgemead CC",
+              "venue": "Away",
+              "date": "2024-02-24"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Khayelitsha CC",
+              "venue": "Home",
+              "date": "2024-02-24"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Greenpoint CC",
+              "venue": "Home",
+              "date": "2024-03-02"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Fish Hoek CC",
+              "venue": "Home",
+              "date": "2024-03-02"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Durbanville CC",
+              "venue": "Away",
+              "date": "2024-03-09"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Somerset College Academy",
+              "venue": "Away",
+              "date": "2024-03-09"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Tygerberg CC",
+              "venue": "Away",
+              "date": "2024-03-16"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Edgemead CC",
+              "venue": "Home",
+              "date": "2024-03-16"
+            }
+          ]
+        },
+        {
+          "shortName": "u11",
+          "name": "U11 Premier",
+          "fixtures": [
+            {
+              "team": "U11 (1)",
+              "opposition": "Durbanville CC",
+              "venue": "Away",
+              "date": "2024-02-03"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Durbanville CC",
+              "venue": "Away",
+              "date": "2024-02-03"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "United CC",
+              "venue": "Away",
+              "date": "2024-02-10"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Durbanville CC",
+              "venue": "Home",
+              "date": "2024-02-10"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "All Rounder CA",
+              "venue": "Home",
+              "date": "2024-02-17"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "All Rounder CA",
+              "venue": "Home",
+              "date": "2024-02-17"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Ottoman CC",
+              "venue": "Away",
+              "date": "2024-02-24"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Primrose CC",
+              "venue": "Away",
+              "date": "2024-02-24"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Mfuleni CC",
+              "venue": "Home",
+              "date": "2024-03-02"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Kenridge PS",
+              "venue": "Away",
+              "date": "2024-03-02"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Strand CC",
+              "venue": "Away",
+              "date": "2024-03-09"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Sunningdale CC",
+              "venue": "Home",
+              "date": "2024-03-09"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Heideveld CC",
+              "venue": "Home",
+              "date": "2024-03-16"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Greenpoint CC",
+              "venue": "Away",
+              "date": "2024-03-16"
+            }
+          ]
+        },
+        {
+          "shortName": "u13a",
+          "name": "U13A Premier",
+          "fixtures": [
+            {
+              "team": "U13 (1)",
+              "opposition": "Somerset College Academy",
+              "venue": "Away",
+              "date": "2024-02-03"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Wynberg Boy's JS",
+              "venue": "Away",
+              "date": "2024-02-03"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Strandfontein CC",
+              "venue": "Away",
+              "date": "2024-02-10"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Tygerberg CC",
+              "venue": "Home",
+              "date": "2024-02-10"
+            },
+            {
+              "team": "U13 (1)",
+              "bye": true,
+              "date": "2024-02-17"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Khayelitsha CC",
+              "venue": "Away",
+              "date": "2024-02-17"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Strand CC",
+              "venue": "TBC",
+              "date": "2024-02-24"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Strandfontein CC",
+              "venue": "TBC",
+              "date": "2024-02-24"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Tygerberg CC",
+              "venue": "Home",
+              "date": "2024-03-02"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Durbanville CC",
+              "venue": "Home",
+              "date": "2024-03-02"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Mitchell's Plain CC",
+              "venue": "Away",
+              "date": "2024-03-09"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Somerset College Academy",
+              "venue": "Home",
+              "date": "2024-03-09"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Curro Durbanville",
+              "venue": "Away",
+              "date": "2024-03-16"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Curro Durbanville",
+              "venue": "Home",
+              "date": "2024-03-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "shortName": "western-province-youth-league-2023-t4",
       "name": "Western Province Youth League 2023 Term 4 Junior Saturday",
       "description": "We have entered two U10, two U11, and one U13 team. Our U12 group will play-up in U13 matches. There are no league matches for U14/U15 but we will arrange ad-hoc matches. 2024 league fixtures will be added when we get them from Western Province Cricket Association.",
