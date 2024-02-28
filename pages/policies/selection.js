@@ -18,7 +18,7 @@ const Page = () => {
         <div className="container narrow">
           <section className="section content">
             <h1 className="title has-text-centered">
-              Selection Policy and Ethos
+              Selection Policy
             </h1>
             <p>
               The Selection Policy as described below is considered to be
