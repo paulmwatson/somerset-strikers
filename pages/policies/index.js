@@ -20,9 +20,10 @@ const Page = () => {
             <h1 className="title has-text-centered">Policies and Processes</h1>
             <ol className="content">
               <li>
-                <Link href="/policies/selection">
-                  Selection Policy and Ethos
-                </Link>
+                <Link href="/policies/selection">Selection Policy</Link>
+              </li>
+              <li>
+                <Link href="/policies/ethos">Ethos</Link>
               </li>
               <li>
                 <Link href="/policies/anti-discrimination-code-of-conduct">
