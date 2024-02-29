@@ -77,11 +77,9 @@ const Page = () => {
                     </small>
                   </td>
                   <td>
-                    <strong>R1,000</strong>
-                    <br />
-                    <small className="has-no-wrap">R500 by October 31</small>
-                    <br />
-                    <small className="has-no-wrap">R500 by January 31</small>
+                    <Link href="/contact-us">
+                      Contact Us
+                    </Link>
                   </td>
                 </tr>
                 <tr>
