@@ -418,7 +418,14 @@ const Page = () => {
             <h2 className="title">17. QUORUM</h2>
             <p>
               A quorum for the Annual General Meeting shall be a minimum of 33%
-              of fully paid up members eligible to vote.
+              of fully paid up members eligible to vote. The Quorum can be
+              achieved either in person or digitally or a combination of both [1].
+            </p>
+
+            <p id="">
+              <small>
+                [1] Quorum amended Thursday 13 April 2023 to reflect the vote to amend. See minutes of 2023 AGM.
+              </small>
             </p>
 
             <h2 className="title">18. SPECIAL GENERAL MEETINGS</h2>
