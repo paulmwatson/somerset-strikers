@@ -68,39 +68,12 @@ const Page = () => {
               </a>
             </div>
             <div className="column has-text-centered">
-              <a href="https://www.jonssonworkwear.com/" rel="noreferrer">
+              <a href="https://definitivecm.com/" rel="noreferrer">
                 <Image
-                  src="/images/sponsors/jonssonworkwearlogo.webp"
-                  alt="Jonsson Workwear"
+                  src="/images/sponsors/definitive-capital-management.webp"
+                  alt="Definitive Capital Management"
                   width="499"
-                  height="256"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="columns is-multiline is-centered is-vcentered is-width-75-percent-and-centered">
-            <div className="column has-text-centered">
-              <a
-                href="https://www.spar.co.za/home/store-view/kwikspar-twin-palms-western-cape"
-                rel="noreferrer"
-              >
-                <Image
-                  src="/images/sponsors/twinpalmskwiksparlogo.webp"
-                  alt="Twin Palms KWIKSPAR"
-                  width="1000"
-                  height="109"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="columns is-multiline is-centered is-vcentered is-width-40-percent-and-centered">
-            <div className="column has-text-centered">
-              <a href="https://www.xtrovert.co.za/" rel="noreferrer">
-                <Image
-                  src="/images/sponsors/xtrovertaccountinglogo.webp"
-                  alt="Xtrovert Accounting"
-                  width="678"
-                  height="256"
+                  height="257"
                 />
               </a>
             </div>
