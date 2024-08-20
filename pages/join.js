@@ -23,7 +23,7 @@ const Page = () => {
             <p className="content is-size-4  has-text-centered">
               Joining Somerset Strikers is easy.{" "}
               <a
-                href="https://bit.ly/sscc2324reg"
+                href="https://bit.ly/sscc2425reg"
                 rel="noreferrer"
                 className="has-text-weight-bold is-underlined"
                 target="_blank"
@@ -36,7 +36,7 @@ const Page = () => {
             <p className="content">
               The cricket club season runs from{" "}
               <strong>October to March</strong> with regular practice. We cater
-              for ages <strong>U7 up to U15</strong> and practice and play{" "}
+              for ages <strong>U7 up to U13</strong> and practice and play{" "}
               <strong>hard-ball</strong> cricket.
             </p>
             <table className="table is-fullwidth is-striped">
@@ -59,27 +59,11 @@ const Page = () => {
                     </small>
                   </td>
                   <td>
-                    <strong>R1,300</strong>
+                    <strong>R1,400</strong>
                     <br />
-                    <small className="has-no-wrap">R650 by October 31</small>
+                    <small className="has-no-wrap">R700 by October 31</small>
                     <br />
-                    <small className="has-no-wrap">R650 by January 31</small>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong className="has-no-wrap">
-                      Full Youth (U14/U15)
-                    </strong>
-                    <br />
-                    <small>
-                      Practice, Tournaments*, Friendly Matches, Internal Matches
-                    </small>
-                  </td>
-                  <td>
-                    <Link href="/contact-us">
-                      Contact Us
-                    </Link>
+                    <small className="has-no-wrap">R700 by January 31</small>
                   </td>
                 </tr>
                 <tr>
@@ -89,7 +73,11 @@ const Page = () => {
                     <small>Practice, Internal Matches</small>
                   </td>
                   <td>
-                    <strong>R700</strong>
+                    <strong>R750</strong>
+                    <br />
+                    <small className="has-no-wrap">R375 by October 31</small>
+                    <br />
+                    <small className="has-no-wrap">R375 by January 31</small>
                   </td>
                 </tr>
               </tbody>
@@ -103,47 +91,7 @@ const Page = () => {
               You may pay the full fee, or half by <strong>October 31</strong>{" "}
               and the remaining amount by <strong>January 31</strong>.
             </p>
-            <table className="table is-fullwidth">
-              <thead>
-                <tr className="is-selected">
-                  <th colSpan="2">Payment must be made by EFT</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Bank</td>
-                  <td>
-                    <strong>First National Bank</strong>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="has-no-wrap">Branch Code</td>
-                  <td>
-                    <strong>250655</strong>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="has-no-wrap">Account Number</td>
-                  <td>
-                    <strong>63020516134</strong>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Reference</td>
-                  <td>
-                    <strong>Initial Surname SUBS</strong>
-                    <br />
-                    e.g.
-                    <br />
-                    S. Nkosi SUBS
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <p className="content has-text-centered">
-              Send Proof of Payment to
-              <wbr /> <strong>treasurer@somersetstrikers.co.za</strong>
-            </p>
+            <p>Payment will be made via the Karri app which you will be invited to.</p>            
           </section>
         </div>
       </div>

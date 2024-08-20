@@ -22,7 +22,7 @@
         "join": "Join"
     },
     "navigation": {
-        "bank": "Bank/EFT",
+        "bank": "Payment",
         "constitution": "Constitution",
         "join": "Join",
         "practice": "Practice",
