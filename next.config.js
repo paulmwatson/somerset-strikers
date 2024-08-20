@@ -30,7 +30,12 @@ const nextConfig = {
       },
       {
         source: "/eft",
-        destination: "/bank",
+        destination: "/payment",
+        permanent: false,
+      },
+      {
+        source: "/bank",
+        destination: "/payment",
         permanent: false,
       },
       {

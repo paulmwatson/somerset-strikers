@@ -17,7 +17,10 @@ const Page = () => {
           <section className="section content">
             <h1 className="title  has-text-centered">Banking Details</h1>
             <p className="is-size-4  has-text-centered">
-              Somerset Strikers is a cashless organisation.
+              Somerset Strikers is a cashless organisation and{" "}
+              <strong>all payments will be faciliated via the Karri app</strong>
+              . Please only use the EFT details below if you are specifically
+              requested too.
             </p>
 
             <table className="table is-fullwidth">

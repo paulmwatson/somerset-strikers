@@ -43,7 +43,7 @@ const Page = () => {
                 </tr>
                 <tr>
                   <td>
-                    <strong className="has-no-wrap">U12 to U15</strong>
+                    <strong className="has-no-wrap">U12 to U13</strong>
                   </td>
                   <td>16:45 to 18:15</td>
                   <td>Parel Vallei High School</td>
@@ -167,12 +167,6 @@ const Page = () => {
                     <strong className="has-no-wrap">U12-U13</strong>
                   </td>
                   <td>135g</td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong className="has-no-wrap">U14-U15</strong>
-                  </td>
-                  <td>156g</td>
                 </tr>
               </tbody>
               <tfoot>
