@@ -9,8 +9,14 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/register",
+        destination: "https://bit.ly/sscc2425reg",
+        permanent: false,
+      },
+      {
         source: "/stats",
-        destination: "https://docs.google.com/spreadsheets/d/1oesUid_RwtDdtqiXiMLhMzICpIuqZZP4oaO0MMFb90o/edit?usp=sharing",
+        destination:
+          "https://docs.google.com/spreadsheets/d/1oesUid_RwtDdtqiXiMLhMzICpIuqZZP4oaO0MMFb90o/edit?usp=sharing",
         permanent: false,
       },
       {
