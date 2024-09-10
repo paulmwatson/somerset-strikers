@@ -23,7 +23,7 @@ const Page = () => {
             <p className="content is-size-4  has-text-centered">
               Joining Somerset Strikers is easy.{" "}
               <a
-                href="https://bit.ly/sscc2425reg"
+                href="/register"
                 rel="noreferrer"
                 className="has-text-weight-bold is-underlined"
                 target="_blank"
