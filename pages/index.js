@@ -79,11 +79,21 @@ const Page = () => {
             </div>
           </div>
           <div className="columns is-multiline is-centered is-vcentered is-width-40-percent-and-centered">
-            <div className="column has-text-centered ">
+          <div className="column has-text-centered ">
               <a href="https://www.redstor.com/" rel="noreferrer">
                 <Image
                   src="/images/sponsors/redstorlogo.webp"
                   alt="Restor"
+                  width="900"
+                  height="256"
+                />
+              </a>
+            </div>
+            <div className="column has-text-centered ">
+              <a href="https://ajmtax.co.za/" rel="noreferrer">
+                <Image
+                  src="/images/sponsors/ajmtaxlogo.webp"
+                  alt="AJM Tax"
                   width="900"
                   height="256"
                 />
