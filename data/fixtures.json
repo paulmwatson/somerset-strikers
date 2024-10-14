@@ -1,6 +1,209 @@
 {
   "leagues": [
     {
+      "shortName": "western-province-youth-league-2024-t4",
+      "name": "Western Province Youth League 2024 Term 4 Junior Saturday",
+      "description": "We have entered two U10, two U11, and two U13 teams. Our U12 group will play-up in U13 matches. Fixtures are subject to change.",
+      "groups": [
+        {
+          "shortName": "u10",
+          "name": "U10 Premier",
+          "fixtures": [
+            {
+              "team": "U10 (1)",
+              "opposition": "Rylands CC",
+              "venue": "Home",
+              "date": "2024-10-19"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Durbanville CC",
+              "venue": "Away",
+              "date": "2024-10-19"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Durbanville CC",
+              "venue": "Away",
+              "date": "2024-10-26"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Old Cross Roads CC",
+              "venue": "Home",
+              "date": "2024-10-26"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Sunningdale CC",
+              "venue": "Home",
+              "date": "2024-11-02"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Durbanville CC",
+              "venue": "Home",
+              "date": "2024-11-02"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Durbanville CC",
+              "venue": "Home",
+              "date": "2024-11-09"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Old Cross Roads CC",
+              "venue": "Home",
+              "date": "2024-11-09"
+            },
+            {
+              "team": "U10 (1)",
+              "opposition": "Sunningdale CC",
+              "venue": "Away",
+              "date": "2024-11-16"
+            },
+            {
+              "team": "U10 (2)",
+              "opposition": "Sunningdale CC",
+              "venue": "Away",
+              "date": "2024-11-16"
+            }
+          ]
+        },
+        {
+          "shortName": "u11",
+          "name": "U11 Premier",
+          "fixtures": [
+            {
+              "team": "U11 (1)",
+              "opposition": "Cravenby CC",
+              "venue": "Away",
+              "date": "2024-10-19"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Durbanville CC",
+              "venue": "Home",
+              "date": "2024-10-19"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "All Rounder CA",
+              "venue": "Home",
+              "date": "2024-10-26"
+            },
+            {
+              "team": "U11 (2)",
+              "bye": true,
+              "date": "2024-10-26"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Ottoman CC",
+              "venue": "Away",
+              "date": "2024-11-02"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Primrose CC",
+              "venue": "Home",
+              "date": "2024-11-02"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Somerset West CC",
+              "venue": "Home",
+              "date": "2024-11-09"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Kenridge PS",
+              "venue": "Away",
+              "date": "2024-11-09"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "United CC",
+              "venue": "Away",
+              "date": "2024-11-16"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Strand CC",
+              "venue": "Home",
+              "date": "2024-11-16"
+            }
+          ]
+        },
+        {
+          "shortName": "u13a",
+          "name": "U13A Premier",
+          "fixtures": [
+            {
+              "team": "U13 (1)",
+              "opposition": "Strandfontein CC",
+              "venue": "Away",
+              "date": "2024-10-19"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Tygerberg CC",
+              "venue": "Home",
+              "date": "2024-10-19"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Somerset West CC",
+              "venue": "Away",
+              "date": "2024-10-26"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Khayelitsha CC",
+              "venue": "Away",
+              "date": "2024-10-26"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Strand CC",
+              "venue": "Home",
+              "date": "2024-11-02"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Strandfontein CC",
+              "venue": "Away",
+              "date": "2024-11-02"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Tygerberg CC",
+              "venue": "Home",
+              "date": "2024-11-09"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Durbanville CC",
+              "venue": "Home",
+              "date": "2024-11-09"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Mitchell's Plain CC",
+              "venue": "Away",
+              "date": "2024-11-16"
+            },
+            {
+              "team": "U13 (2)",
+              "bye": true,
+              "date": "2024-11-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "shortName": "western-province-youth-league-2024-t1",
       "name": "Western Province Youth League 2024 Term 1 Junior Saturday",
       "description": "We have entered two U10, two U11, and two U13 teams. Our U12 group will play-up in U13 matches. Fixtures are subject to change.",
