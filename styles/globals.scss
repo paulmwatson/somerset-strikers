@@ -137,3 +137,28 @@ $link-hover: $info;
 .has-width-99-percent {
   width: 99%;
 }
+
+.mark-new {
+  background-color: #0f0;
+  outline: solid 10px #0f0;
+}
+
+.mark-removed {
+  background-color: #ccc;
+  outline: solid 10px #ccc;
+}
+
+.mark-changed {
+  background-color: #ffc;
+  outline: solid 10px #ffc;
+
+  strike {
+    color: #f00;
+    font-weight: bold;
+  }
+
+  strong {
+    color: #090;
+    text-decoration: underline;
+  }
+}
