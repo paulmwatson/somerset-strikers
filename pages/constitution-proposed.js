@@ -166,7 +166,7 @@ const Page = () => {
               concerned with income and/or expenditure. They shall be empowered
               to pay all authorised and routine accounts and to submit proper
               books of accounts for auditing once seasonally before the{" "}
-              <strike>Clubs</strike> <strong>Club's</strong> AGM, with an
+              <strike>Clubs</strike> <strong>Club&apos;s</strong> AGM, with an
               unaudited review <strike>mid season</strike>{" "}
               <strong>mid-season</strong> and shall cause the preparation of a
               financial statement for presentation to the Annual General
