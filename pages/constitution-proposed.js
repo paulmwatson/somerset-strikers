@@ -16,6 +16,10 @@ const Page = () => {
         <Navigation />
         <div className="container narrow">
           <section className="section content">
+            <mark className="is-size-5">
+              The bellow has been accepted and merged into the Constitution as
+              of 2024/10/28.
+            </mark>
             <p>Proposed changes to the Constitution</p>
             <p className="mark-new">New is indicated in green</p>
             <p className="mark-removed">Removed is indicated in gray</p>
