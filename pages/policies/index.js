@@ -35,6 +35,11 @@ const Page = () => {
                   Annual General Meeting Process
                 </Link>
               </li>
+              <li>
+                <Link href="/policies/u10-guidelines-for-matches-player-rotation">
+                  U10 Guidelines For Matches &amp; Player Rotation
+                </Link>
+              </li>
             </ol>
           </section>
         </div>
