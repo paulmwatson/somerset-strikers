@@ -323,7 +323,7 @@ const Page = () => {
             </p>
             <h2 className="title">10. ANTI-DISCRIMINATION POLICY</h2>
             <p>
-              The Club strives to be an inclusive club. Discrimanation against
+              The Club strives to be an inclusive club. Discrimination against
               any player or person based on race, culture, language, gender, or
               any other group, will not be tolerated.
             </p>
