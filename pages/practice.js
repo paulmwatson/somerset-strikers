@@ -36,30 +36,30 @@ const Page = () => {
               <tbody>
                 <tr>
                   <td>
-                    <strong className="has-no-wrap">U10*</strong>
+                    <strong className="has-no-wrap">U10* &amp;  U11</strong>
                   </td>
                   <td>16:00 to 17:00</td>
                   <td>Beaumont Primary School</td>
                 </tr>
                 <tr>
                   <td>
-                    <strong className="has-no-wrap">U11</strong>
+                    <strong className="has-no-wrap">U10* &amp;  U11</strong>
                   </td>
-                  <td>17:00 to 18:15</td>
+                  <td>17:00 to 18:00</td>
                   <td>Beaumont Primary School</td>
                 </tr>
                 <tr>
                   <td>
-                    <strong className="has-no-wrap">U12</strong>
+                    <strong className="has-no-wrap">U12 &amp; U13</strong>
                   </td>
-                  <td>16:00 to 17:15</td>
+                  <td>16:00 to 17:00</td>
                   <td>Parel Vallei High School</td>
                 </tr>
                 <tr>
                   <td>
-                    <strong className="has-no-wrap">U13</strong>
+                    <strong className="has-no-wrap">U12 &amp; U13</strong>
                   </td>
-                  <td>17:00 to 18:15</td>
+                  <td>17:00 to 18:00</td>
                   <td>Parel Vallei High School</td>
                 </tr>
               </tbody>
