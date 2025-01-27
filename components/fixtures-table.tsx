@@ -11,7 +11,7 @@ export default function FixturesTable({
       {leagues
         .filter((league) => league.shortName == currentLeague)
         .map((league) => (
-          <>
+          <React.Fragment key={league.shortName}>
             <section className="section pt-0 pb-0" key={league.shortName}>
               <h2 className="title is-size-4 is-size-5-mobile">{league.name}</h2>
               <p className="content is-size-6-mobile">{league.description}</p>
@@ -53,7 +53,7 @@ export default function FixturesTable({
                     <tbody>
                       {group.fixtures.map((fixture) => (
                         <tr
-                          key={`${league.shortName}${group.shortName}${fixture.date}${fixture.opposition}`}
+                          key={`${league.shortName}${group.shortName}${fixture.date}${fixture.team}${fixture.venue}${fixture.opposition}`}
                         >
                           <td className="has-no-wrap">
                             <strong>{fixture.date}</strong>
@@ -84,7 +84,7 @@ export default function FixturesTable({
                   </table>
                 ))}
             </section>
-          </>
+          </React.Fragment>
         ))}
     </>
   );
