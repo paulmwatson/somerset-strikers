@@ -1,6 +1,372 @@
 {
   "leagues": [
     {
+      "shortName": "western-province-youth-league-2025-t1",
+      "name": "Western Province Youth League 2025 Term 1 Junior Saturday",
+      "description": "We have entered one U10, three U11, two U12, and two U13 teams. Fixtures are subject to change.",
+      "groups": [
+        {
+          "shortName": "u10",
+          "name": "U10",
+          "fixtures": [
+            {
+              "team": "U10",
+              "opposition": "Rylands CC (2)",
+              "venue": "Away",
+              "date": "2025-01-25"
+            },
+            {
+              "team": "U10",
+              "opposition": "Edgemead CC",
+              "venue": "Home",
+              "date": "2025-02-01"
+            },
+            {
+              "team": "U10",
+              "opposition": "Rylands CC (1)",
+              "venue": "Away",
+              "date": "2025-02-08"
+            },
+            {
+              "team": "U10",
+              "opposition": "Bellville CC",
+              "venue": "Away",
+              "date": "2025-02-15"
+            },
+            {
+              "team": "U10",
+              "opposition": "Khayelitsha CC",
+              "venue": "Home",
+              "date": "2025-02-22"
+            },
+            {
+              "team": "U10",
+              "opposition": "Durbanville CC (3)",
+              "venue": "Home",
+              "date": "2025-03-01"
+            },
+            {
+              "team": "U10",
+              "opposition": "Sunningdale CC (2)",
+              "venue": "Home",
+              "date": "2025-03-08"
+            }
+          ]
+        },
+        {
+          "shortName": "u11",
+          "name": "U11",
+          "fixtures": [
+            {
+              "team": "U11 (1)",
+              "opposition": "Sunningdale CC",
+              "venue": "Away",
+              "date": "2025-01-25"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Bellville CC",
+              "venue": "Home",
+              "date": "2025-01-25"
+            },
+            {
+              "team": "U11 (3)",
+              "opposition": "Durbanville CC (3)",
+              "venue": "Away",
+              "date": "2025-01-25"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Durbanville CC (1)",
+              "venue": "Home",
+              "date": "2025-02-01"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Edgemead CC",
+              "venue": "Away",
+              "date": "2025-02-01"
+            },
+            {
+              "team": "U11 (3)",
+              "opposition": "Strand CC",
+              "venue": "Home",
+              "date": "2025-02-01"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Khayelitsha CC",
+              "venue": "Home",
+              "date": "2025-02-08"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Edgemead CC",
+              "venue": "Away",
+              "date": "2025-02-08"
+            },
+            {
+              "team": "U11 (3)",
+              "opposition": "Strand CC",
+              "venue": "Home",
+              "date": "2025-02-08"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "United CC",
+              "venue": "Away",
+              "date": "2025-02-15"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Strandfontein CC",
+              "venue": "Home",
+              "date": "2025-02-15"
+            },
+            {
+              "team": "U11 (3)",
+              "opposition": "Kuils River CC",
+              "venue": "Away",
+              "date": "2025-02-15"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Tygerberg CC",
+              "venue": "Away",
+              "date": "2025-02-22"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Sunningdale CC",
+              "venue": "Away",
+              "date": "2025-02-22"
+            },
+            {
+              "team": "U11 (3)",
+              "opposition": "Hanover Park CC",
+              "venue": "Away",
+              "date": "2025-02-22"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Kenridge PS (1)",
+              "venue": "Away",
+              "date": "2025-03-01"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Durbanville CC (3)",
+              "venue": "Home",
+              "date": "2025-03-01"
+            },
+            {
+              "team": "U11 (3)",
+              "opposition": "Durbanville CC (2)",
+              "venue": "Home",
+              "date": "2025-03-01"
+            },
+            {
+              "team": "U11 (1)",
+              "opposition": "Bellville CC",
+              "venue": "Home",
+              "date": "2025-03-08"
+            },
+            {
+              "team": "U11 (2)",
+              "opposition": "Heideveld CC",
+              "venue": "Away",
+              "date": "2025-03-08"
+            },
+            {
+              "team": "U11 (3)",
+              "opposition": "Strandfontein CC",
+              "venue": "Away",
+              "date": "2025-03-08"
+            }
+          ]
+        },
+        {
+          "shortName": "u12",
+          "name": "U12",
+          "fixtures": [
+            {
+              "team": "U12 (1)",
+              "opposition": "Durbanville CC (1)",
+              "venue": "Home",
+              "date": "2025-01-25"
+            },
+            {
+              "team": "U12 (2)",
+              "opposition": "Durbanville CC (2)",
+              "venue": "Away",
+              "date": "2025-01-25"
+            },
+            {
+              "team": "U12 (1)",
+              "opposition": "Kenridge PS",
+              "venue": "Away",
+              "date": "2025-02-01"
+            },
+            {
+              "team": "U12 (2)",
+              "opposition": "Edgemead CC",
+              "venue": "Home",
+              "date": "2025-02-01"
+            },
+            {
+              "team": "U12 (1)",
+              "opposition": "Primrose CC",
+              "venue": "Away",
+              "date": "2025-02-08"
+            },
+            {
+              "team": "U12 (2)",
+              "opposition": "Durbanville CC (3)",
+              "venue": "Home",
+              "date": "2025-02-08"
+            },
+            {
+              "team": "U12 (1)",
+              "bye": true,
+              "date": "2025-02-15"
+            },
+            {
+              "team": "U12 (2)",
+              "opposition": "Tygerberg CC",
+              "venue": "Away",
+              "date": "2025-02-15"
+            },
+            {
+              "team": "U12 (1)",
+              "opposition": "Ottoman CC",
+              "venue": "Home",
+              "date": "2025-02-22"
+            },
+            {
+              "team": "U12 (2)",
+              "opposition": "Mfuleni CC",
+              "venue": "Home",
+              "date": "2025-02-22"
+            },
+            {
+              "team": "U12 (1)",
+              "opposition": "St Augustines CC",
+              "venue": "Home",
+              "date": "2025-03-01"
+            },
+            {
+              "team": "U12 (2)",
+              "opposition": "Sunningdale CC",
+              "venue": "Away",
+              "date": "2025-03-01"
+            },
+            {
+              "team": "U12 (1)",
+              "opposition": "Tygerberg CC",
+              "venue": "Home",
+              "date": "2025-03-08"
+            },
+            {
+              "team": "U12 (2)",
+              "opposition": "Belhar CC",
+              "venue": "Home",
+              "date": "2025-03-08"
+            }
+          ]
+        },
+        {
+          "shortName": "u13a",
+          "name": "U13",
+          "fixtures": [
+            {
+              "team": "U13 (1)",
+              "opposition": "Sunningdale CC (1)",
+              "venue": "Home",
+              "date": "2025-01-25"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Sunningdale CC (2)",
+              "venue": "Away",
+              "date": "2025-01-25"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "St Augustines CC",
+              "venue": "Away",
+              "date": "2025-02-01"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Durbanville CC (3)",
+              "venue": "Away",
+              "date": "2025-02-01"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Durbanville CC (1)",
+              "venue": "Away",
+              "date": "2025-02-08"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Durbanville CC (2)",
+              "venue": "Home",
+              "date": "2025-02-08"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Curro Durbanville (1)",
+              "venue": "Home",
+              "date": "2025-02-15"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Curro Durbanville (2)",
+              "venue": "Home",
+              "date": "2025-02-15"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Strandfontein CC",
+              "venue": "Home",
+              "date": "2025-02-22"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Peninsula CA",
+              "venue": "Away",
+              "date": "2025-02-22"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Peninsula CA",
+              "venue": "Away",
+              "date": "2025-03-01"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Durbanville CC (3)",
+              "venue": "Home",
+              "date": "2025-03-01"
+            },
+            {
+              "team": "U13 (1)",
+              "opposition": "Greenpoint CC",
+              "venue": "Home",
+              "date": "2025-03-08"
+            },
+            {
+              "team": "U13 (2)",
+              "opposition": "Greenpoint CC",
+              "venue": "Home",
+              "date": "2025-03-08"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "shortName": "western-province-youth-league-2024-t4",
       "name": "Western Province Youth League 2024 Term 4 Junior Saturday",
       "description": "We have entered two U10, two U11, and two U13 teams. Our U12 group will play-up in U13 matches. Fixtures are subject to change.",

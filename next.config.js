@@ -46,7 +46,7 @@ const nextConfig = {
       },
       {
         source: "/fixtures",
-        destination: "/play/western-province-youth-league-2024-t4/u10/fixtures",
+        destination: "/play/western-province-youth-league-2025-t1/u10/fixtures",
         permanent: false,
       },
     ];
