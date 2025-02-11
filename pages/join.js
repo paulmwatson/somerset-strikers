@@ -91,7 +91,6 @@ const Page = () => {
               You may pay the full fee, or half by <strong>October 31</strong>{" "}
               and the remaining amount by <strong>January 31</strong>.
             </p>
-            <p>Payment will be made via the Karri app which you will be invited to.</p>            
           </section>
         </div>
       </div>
